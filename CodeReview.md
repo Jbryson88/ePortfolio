@@ -36,5 +36,3 @@ Detailed Enhancements Completed
 •	Added media queries to styles.css to make the site look better on tablets and mobile screens.
 •	Adjusted layout so navbar stacks vertically on small screens and buttons and text resize appropriately.
 
-
-<img width="468" height="658" alt="image" src="https://github.com/user-attachments/assets/6e7d8473-73ca-4e4d-a9fb-8aaa9a0a4fb5" />
