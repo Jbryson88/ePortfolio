@@ -1,0 +1,15 @@
+2-1 Code Review Journal
+
+
+
+Code review is when a developer examines another developer’s code to check for mistakes, make sure it follows good practices, and confirm it meets the project’s standards. 
+It is an important part of being a computer science professional because it improves the quality and reliability of software, helps share knowledge between team members, 
+and reduces bugs that could appear later. Some of the best practices I learned about include reviewing small sections of code to avoid missing details, giving helpful 
+and respectful feedback, and checking that the code is easy to read and maintain. Code reviews should happen after the developer completes a feature or task but before 
+merging it into the main project. This is the best time because it lets the team fix issues early and keeps the main codebase stable.
+For my code review, I decided to use the built-in code review tool in Visual Studio. It is convenient because it integrates directly with the development 
+environment and allows me to leave comments and track feedback easily. To prepare, I will write an outline that covers the three main categories from the rubric: 
+software design and engineering, algorithms and data structures, and databases. I will also use the code review checklist to make sure I do not miss anything important 
+in my feedback. In my review, I plan to go through each category one at a time, explaining what the code does well and what can be improved, while keeping my comments 
+clear and organized.
+
