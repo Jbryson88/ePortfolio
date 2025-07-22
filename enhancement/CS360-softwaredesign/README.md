@@ -2,44 +2,44 @@
 
 ---
 
-## CS360 Mobile Architect & Programming 21EW6<br/>August 2021
+## CS360 Mobile Architect & Programming
 
 ---
 
 [![Generic badge](https://img.shields.io/badge/development_tool-Android_Studio-red.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/language-JAVA-blue.svg)](https://isocpp.org/) [![Generic badge](https://img.shields.io/badge/database-SQLite-green.svg)](https://sqlite.org/index.html) [![Generic badge](https://img.shields.io/badge/ide-Android_Studio-purple.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
-## Overview
+Overview
+I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
 
-As a team member of Mobile2App company, we have been hired to assist in developing a mobile application to track items in a warehouse, Inventory App (Option 1). The mobile application project will go through different steps, from planning to design to development, to be ready for launch in the following weeks.
+Our team took time to understand the goals of the app and the needs of the users so we could build the right solution. We meet every week to review client requests, discuss progress, and assign tasks. Throughout the process, we apply good mobile app development principles and best practices.
 
-The team takes time to orient themselves to understand the goals and users to target the app. The team meets weekly to discuss the latest client request sent in and assign the work implementing mobile application development principles and best practices in developing a mobile application.
+The Goal:
+The Inventory App helps track inventory items through mobile devices. For example, warehouse workers can use the app to manage and automate logistics, which helps the business grow and expand. The app gives users real-time inventory information that can be accessed from anywhere on an Android device.
 
-**The Goal:** *The Inventory application is to track items in an inventory list through the primary use of mobile devices. As an example, the track of the items through the app at a warehouse assists in managing and automating the warehouse logistics and accelerating the business's growth and expansion. The app allows the user to fulfill anywhere experience with real-time inventory visibility on any device. The app development is initially based on install for Android Devices.*
+To meet these goals, the app was requested to include these features:
 
-To achieve these goal, it has been requested that the mobile application must initially include the following features :
+A database with at least two tables: one for inventory items and one for user logins and passwords.
 
-* A database with at least two tables to store: Inventory items, User logins and passwords
-* A screen for sign-in or sign-up into the app.
-* A grid screen that displays all items in the inventory.
-* A mechanism where the user can add and remove items from the inventory.
-* A mechanism where the user can increase or decrease the number of specific items in the inventory.
-* A mechanism to notify the user when the amount of any item in the inventory has been reduced to zero
+A sign-in or sign-up screen.
 
-Through the design and development of the mobile application, I showcase my skills and abilities in designing software, considering and interpreting the user needs, and implementing them into a program relation of activities in an organized structure. The approach of developing programs that integrate the presentation and layout aspects of the user interface with the programmatic phase of the application.
+A screen that displays all inventory items in a grid.
 
-> [Inventory Mobile App Design Planning Paper](CS360-M3-3_Design.pdf "Inventory Mobile App Design Planning Paper")
+A way for users to add and remove items from the inventory.
 
-As a designer and engineer, I initially plan and program the purpose of my idea and my target audience. Every audience is different, and I should interpret user needs and implement them into the idea to develop by considering their needs in a prioritized way where the most important or favorite features are attended to first. It is like ranking the tasks that need to be incorporated into the app at their initial launch. The importance of looking for competitive apps and how they approach the application's design to resolve the UI/UX for the app and how similar features to our idea were presented and determined by those apps. So, searching in the app store or the internet to find similar apps to the app idea we want to develop is a critical approach to implement.
+A way for users to increase or decrease the quantity of specific items.
 
-> [Inventory Mobile App Development Paper](CS360-M7-2_Development.pdf "Inventory Mobile App Development Paper")
+A notification that alerts users when an item’s quantity reaches zero.
 
-There's much information on how a mobile application design process should be. Understanding this process is crucial to produce an app of quality and acceptance to our target audience. Doing these alone is impossible, so it is questionable to think we will create a great application ourselves. On the complete app design and development process, it is essential to look for help to understand our strengths and weaknesses from initial planning to finalization. To be successful, we need to build a collaborative team that could help us digest and practice mobile app development's good practices. Focus on implementing and relating the design components and the programmatic code to continue finding opportunities to improve and innovate the mobile app to overcome a challenge.
+This project shows my ability to design software by understanding user needs and turning those needs into an organized program. It is important to connect the user interface design and layout with the programming part of the app.
 
-## Reflection
+As a developer, I start by planning and thinking about the purpose of the app and who will use it. Every group of users is different, so it is important to focus on what they need the most and build those features first. It also helps to look at similar apps to see how they solve similar problems, especially in how they design the user experience. Searching the app store or online for similar apps is a very important step.
 
-With this artifact, I demonstrated my ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value based on industry-specific goals. The artifact involved an entire software design and engineering process consisting of design considerations of user experience and user interaction with different screens and actions that the application includes. Ensure an intuitive use of the application and its features through industry-standard icons and symbols and a relational database to store the data created, read, updated, and deleted by users through the operation and use of the application.
+There is a lot of information about how to design a good mobile app, and understanding that process is key to making an app that users will like. It is not realistic to think you can make a great app completely on your own. That’s why it is important to work as a team and help each other, from the first planning step to the final launch. Building a strong, collaborative team is essential to follow good practices, improve the design and code, and find new ways to make the app better and meet challenges.
 
-I designed and evaluated computing solutions that can solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices considering the relationship and functionality of the algorithms and data structure between the different classes and methods, and the structure of their layouts and source code. I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy. I enhanced the security of data and resources by implementing engineering practices and techniques for validating input data architecture designed with a security mindset and default denial. 
+Reflection
+This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
+
+I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
 
 ## Screenshots
 
@@ -59,8 +59,7 @@ I designed and evaluated computing solutions that can solve a given problem usin
 
 ---
 
-[![SNHU CS499 Repository](https://img.shields.io/badge/repo-CS499-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/arsari/ePortfolio "Back to CS499 Repo") [![ePortfolio Home](https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant)](https://arsari.github.io/ePortfolio "Back to ePortfolio Home") [![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
+[![SNHU CS499 Repository](https://img.shields.io/badge/repo-CS499-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/arsari/ePortfolio "Back to CS499 Repo") [![ePortfolio Home](https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant)](https://jbryson88.github.io/ePortfolio/) "Back to ePortfolio Home") [![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
 
 ---
 
-<small>_[Updated April, 2022 by ASR]_</small>
