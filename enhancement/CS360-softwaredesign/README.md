@@ -9,6 +9,8 @@
 [![Generic badge](https://img.shields.io/badge/development_tool-Android_Studio-red.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/language-JAVA-blue.svg)](https://isocpp.org/) [![Generic badge](https://img.shields.io/badge/database-SQLite-green.svg)](https://sqlite.org/index.html) [![Generic badge](https://img.shields.io/badge/ide-Android_Studio-purple.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 Overview
+
+
 I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
 
 Our team took time to understand the goals of the app and the needs of the users so we could build the right solution. We meet every week to review client requests, discuss progress, and assign tasks. Throughout the process, we apply good mobile app development principles and best practices.
@@ -59,7 +61,7 @@ I designed and tested solutions to problems by using good algorithms and followi
 
 ---
 
-[![SNHU CS499 Repository](https://img.shields.io/badge/repo-CS499-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/Jbryson88/ePortfolio "Back to CS499 Repo") [![ePortfolio Home](https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant)]("https://jbryson88.github.io [![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
+[![SNHU CS499 Repository](https://img.shields.io/badge/repo-CS499-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/Jbryson88/ePortfolio "Back to CS499 Repo") [![ePortfolio Home](https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant)](https://jbryson88.github.io)[![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
 
 ---
 
