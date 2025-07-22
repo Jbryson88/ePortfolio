@@ -1,4 +1,4 @@
-# ePortfolio
+# About Me
 
 This repository explains how I created my ePortfolio for the CS499 Computer Science Capstone final project. Making a professional portfolio is one of the best ways to show employers my unique skills and talents. The ePortfolio is a good way to clearly present my abilities in the main areas of Computer Science. It includes work from different courses in the program that shows how I have grown in software design and engineering, algorithms and data structures, and databases.
 
