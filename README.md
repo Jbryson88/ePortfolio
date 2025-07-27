@@ -10,4 +10,4 @@ During my time in the Computer Science program, I learned and improved many skil
 
 
 
-<img width="65%" height="250" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
+<img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
