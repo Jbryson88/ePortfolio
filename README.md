@@ -25,6 +25,7 @@ During my time in the CS program, I also learned how important planning is when 
 
 Throughout this program and my time in the military, I became more confident in learning new skills quickly. I approach problems with curiosity and a leadership attitude. My work in software development, data analysis, and technical writing is shown clearly in the artifacts in my ePortfolio. These skills, along with my military discipline and experience, make me a strong candidate for a software engineering role. I focus on writing code that not only works for computers, but is also clear and easy for people to understand and build on.
 
+<img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
 
 
 
