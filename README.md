@@ -22,5 +22,17 @@ Throughout this program and my time in the military, I became more confident in 
 
 <img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
 
+<img width="100%" height="175" alt="coding" src="https://github.com/Jbryson88/ePortfolio/blob/main/assets/img/coding.jpg" />
+
+Each course in the Computer Science program has played an important role in helping me gain the knowledge, skills, and abilities needed to pursue a career in this field. While I have learned a great deal outside of the classroom, certain courses had a greater impact and helped shape the direction I originally set out to follow when I joined the program. These courses helped me discover strengths I didn’t realize I had and gave me the chance to grow in areas I had not explored before. Because of that, I selected artifacts that clearly demonstrate and highlight the skills I gained from these experiences.
+
+In CS250 Software Development Lifecycle, I learned how important the development process is and how strong communication with team members and clients supports a project’s success. IT145 Foundation in Application Development and CS260 Data Structures and Algorithms taught me valuable lessons about algorithms and data structures. These courses helped me strengthen my ability to design and evaluate solutions to real-world problems using proper computer science methods and design trade-offs. CS310 Collaboration and Team Project helped me understand the value of teamwork and showed how essential collaboration is for completing large-scale projects.
+
+<img width="100%" height="175" src="https://arsari.github.io/ePortfolio/assets/img/CS350-Task-Scheduler-Diagram.png"/>
+<p>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</p>
+
+CS360 Mobile Architecture and Programming and CS330 Computational Graphics and Visualization helped me understand the complexity of software design and computer graphics. In both courses, I showed that I could apply strong and creative techniques, tools, and skills to build computing solutions that add value and meet goals in the industry. CS340 Client and Server Development and DAT220 Fundamentals of Data Mining taught me how to create and use databases and showed how helpful data can be when solving problems. These courses also helped me learn how to create team environments where different people can work together and support decision-making in computer science.
+
+The course artifacts I chose for the code reviews and the main categories of software design and engineering, algorithms and data structures, and databases come from three different projects. Each one gave me a chance to use what I learned in class. I believe the changes I made to these projects show my growth and prove my skills in the computer science program.
 
 
