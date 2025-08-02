@@ -4,6 +4,8 @@ This repository explains how I created my ePortfolio for the CS499 Computer Scie
 
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
+Some of my skills include:
+<img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
 
 
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
@@ -19,8 +21,6 @@ Paying close attention to detail is an important part of writing high-quality co
 My experience as a U.S. Army veteran played a big role in building these habits. In the Army, I learned how to follow instructions, stay calm under pressure, and work with others as a team. I supported large military operations and handled important data for over 250 soldiers at a time. I helped develop and improve tracking systems using Excel and Python, which are now used by the U.S. Army TRADOC across many locations. I also worked with soldiers from other countries, including NATO forces, during training exercises in Europe. These experiences made me strong at solving problems, managing time, and communicating clearly with different groups of people. I now bring those same values to software development.
 
 Throughout this program and my time in the military, I became more confident in learning new skills quickly. I approach problems with curiosity and a leadership attitude. My work in software development, data analysis, and technical writing is shown clearly in the artifacts in my ePortfolio. These skills, along with my military discipline and experience, make me a strong candidate for a software engineering role. I focus on writing code that not only works for computers, but is also clear and easy for people to understand and build on.
-
-<img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
 
 <img width="100%" height="175" alt="coding" src="https://img.freepik.com/premium-vector/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming-software-development-program-coding_198278-4192.jpg" />
 
