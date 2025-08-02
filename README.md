@@ -35,4 +35,17 @@ CS360 Mobile Architecture and Programming and CS330 Computational Graphics and V
 
 The course artifacts I chose for the code reviews and the main categories of software design and engineering, algorithms and data structures, and databases come from three different projects. Each one gave me a chance to use what I learned in class. I believe the changes I made to these projects show my growth and prove my skills in the computer science program.
 
+<img width="100%" height="175" src="https://www.mch.org/wp-content/uploads/2021/12/Sunshine-Fall-21_PrepFuture_Main-Feat_1800x480_v2.jpg" />
+
+The Computer Science program has helped me grow as a professional and has prepared me to build a meaningful and successful career. I am now ready to make valuable contributions to the field of computer science. Like a climber reaching the top of a mountain, I feel a renewed sense of motivation and focus. I have created an ePortfolio that reflects my place among computer science professionals, and I am proud of this achievement.
+
+My ePortfolio shows that I can use solid and creative techniques. I built computer solutions that provide real value and meet specific goals in the industry. One example of this is my project where I worked with CSV data files, importing them into MongoDB, using the PyMongo driver, Python libraries, the Dash framework, and a CRUD module. These tools allowed me to manage the data and build useful web-based features.
+
+I also designed and improved solutions that solve problems using algorithmic thinking and strong computer science practices. I made careful design choices by working with classes, methods, arguments, and variables in Java. Each artifact I enhanced shows my focus on security. I worked to spot possible weaknesses, reduce design flaws, and protect private data and resources.
+
+I am excited to take on new challenges that help me grow. I stay committed to completing my work, even when it is difficult. I believe in asking for help when needed, and I see it as a way to learn from more experienced coworkers and mentors. I want to be part of a team that works together to build creative and useful solutions. I bring strong organization skills, a love of learning, and a positive attitude. I am ready to explore new technologies and build the skills needed to succeed. I am motivated to keep pushing forward and to do my best in every opportunity.
+
+<img width="100%" height="175" src="https://ewzduhvhjkj.exactdn.com/wp-content/uploads/2023/08/03235247/Code-Review-Practices-for-Product-Engineering-Banner.jpg?strip=all&lossy=1&ssl=1"/>
+
+
 
