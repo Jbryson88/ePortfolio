@@ -45,7 +45,7 @@ I also designed and improved solutions that solve problems using algorithmic thi
 
 I am excited to take on new challenges that help me grow. I stay committed to completing my work, even when it is difficult. I believe in asking for help when needed, and I see it as a way to learn from more experienced coworkers and mentors. I want to be part of a team that works together to build creative and useful solutions. I bring strong organization skills, a love of learning, and a positive attitude. I am ready to explore new technologies and build the skills needed to succeed. I am motivated to keep pushing forward and to do my best in every opportunity.
 
-<img width="100%" height="175" src="https://ewzduhvhjkj.exactdn.com/wp-content/uploads/2023/08/03235247/Code-Review-Practices-for-Product-Engineering-Banner.jpg?strip=all&lossy=1&ssl=1"/>
+<img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
 
 
 
