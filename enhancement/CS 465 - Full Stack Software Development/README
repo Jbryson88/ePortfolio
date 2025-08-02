@@ -30,15 +30,6 @@ Version	Date	Author	Comments
 3.0	6/15/2025	John Bryson	Module 6 had some issues, I rectified them by doing a clean install and then continuing on in the development.
 4.0	6/22/2025	John Bryson	Module 7 Set up the project structure with .env file, authentication layer to the app, app_api and app_admin. Implemented functionality with Registeration, login and authentication to AddTrip, EditTrip, and added the final touches.
 
-Instructions 
-
-Fill in all bracketed information on page one (the cover page), in the Document Revision History table, and below each header. Under each header, remove the bracketed prompt and write your own paragraph response covering the indicated information.  
-Executive Summary
-
-The Travlr Getaways web application is built to meet client expectations for a modern travel booking system. It uses a component-based architecture that ensures the app remains scalable and easy to maintain. The system is developed using the MEAN stack, which includes MongoDB, Express.js, Angular, and Node.js.
-On the customer side, users can explore travel packages through an interactive and visually engaging interface. These packages are currently displayed using server-side Handlebars templates and populated with data from a JSON file. The admin interface is being developed as a secure Single Page Application using Angular, allowing internal staff to efficiently manage trips, content, and user accounts.
-This development phase focuses on replacing static HTML with a flexible templating engine. By introducing Handlebars for dynamic content and organizing the backend with modular Express routes and controllers, the project sets the foundation for implementing full CRUD functionality and MongoDB integration in future phases.
-
 Design Constraints
 
 Several design constraints shape the development of the Travlr Getaways web application. First, the project must use the Node.js runtime along with the Express framework. Second, server-side rendering must be handled with Handlebars during the initial phase of development. Third, the admin portal is expected to evolve into a full Single Page Application built with Angular.
@@ -61,6 +52,7 @@ These components work together to create a modular and scalable web application.
  
 
 A text version of the component diagram is available: CS 465 Full Stack Component Diagram Text Version. 
+
 
 The overall system architecture of the Travlr Getaways web application is made up of three main parts: the client side, the server side, and the database. The client side is what users see and interact with. It’s built using a front-end framework like Angular and sends requests through HTTP to get or update data. It allows users to search vacation packages, make bookings, choose payment options, and more.
 The server side is built with Node.js and Express. It works between the front end and the database. This part of the system handles things like checking user login information, keeping track of user sessions, and managing bookings. Express.js helps route each request to the correct function so the server knows what to do with the data.
