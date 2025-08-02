@@ -5,13 +5,6 @@ This repository explains how I created my ePortfolio for the CS499 Computer Scie
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
 
-
-
-
-Some of my skills include:
-<img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
-
-
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
 I started the Computer Science program in September 2020 and have studied for about five years. I joined the program to improve my background in programming and developing applications and web services. I chose this path because I have always been passionate about working with computers and technology. I enjoy web development and have also led some IT projects and helped set up IT systems while working in the field of architecture.
