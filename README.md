@@ -22,7 +22,7 @@ Throughout this program and my time in the military, I became more confident in 
 
 <img width="335" height="223" alt="Skills" src="https://github.com/user-attachments/assets/9444eb1c-4b7e-4a8e-8670-c34417c6bb81" />
 
-<img width="100%" height="175" alt="coding" src="https://github.com/Jbryson88/ePortfolio/blob/main/assets/img/coding.jpg" />
+<img width="100%" height="175" alt="coding" src="https://img.freepik.com/premium-vector/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming-software-development-program-coding_198278-4192.jpg" />
 
 Each course in the Computer Science program has played an important role in helping me gain the knowledge, skills, and abilities needed to pursue a career in this field. While I have learned a great deal outside of the classroom, certain courses had a greater impact and helped shape the direction I originally set out to follow when I joined the program. These courses helped me discover strengths I didn’t realize I had and gave me the chance to grow in areas I had not explored before. Because of that, I selected artifacts that clearly demonstrate and highlight the skills I gained from these experiences.
 
