@@ -72,3 +72,7 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 <img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
 
+<H6>Add Trip</H6>
+<img width="100%" height="450" src="[https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true](https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png?raw=true)"/>
+
+
