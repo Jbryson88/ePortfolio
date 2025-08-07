@@ -45,7 +45,7 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
 
 <h1>Artifact One - Travlr Application - Full Stack</h1>
-<a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
 Why I Selected This Artifact
