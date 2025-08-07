@@ -75,4 +75,8 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 <H6>Add Trip</H6>
 <img width="75%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png"/>
 
+<h6>Trip added to UI in SPA</h6>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
+
+
 
