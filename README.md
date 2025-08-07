@@ -78,5 +78,10 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 <h1>Trip added to UI in SPA</h1>
 <img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
 
+<h1>Editing the trip</h1>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Edit%20Trip.png"/>
+
+<h1>Trip updated in both database and displayed in UI</h1>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Updated%20Trip.png"/>
 
 
