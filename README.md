@@ -26,7 +26,7 @@ Each course in the Computer Science program has played an important role in help
 In CS250 Software Development Lifecycle, I learned how important the development process is and how strong communication with team members and clients supports a project’s success. IT145 Foundation in Application Development and CS260 Data Structures and Algorithms taught me valuable lessons about algorithms and data structures. These courses helped me strengthen my ability to design and evaluate solutions to real-world problems using proper computer science methods and design trade-offs. CS310 Collaboration and Team Project helped me understand the value of teamwork and showed how essential collaboration is for completing large-scale projects.
 
 <img width="100%" height="175" src="https://github.com/Jbryson88/ePortfolio/blob/main/assets/img/CS350-Task-Scheduler-Diagram.png?raw=true"/>
-<p>Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</p>
+<h6>Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</h6>
 
 CS360 Mobile Architecture and Programming and CS330 Computational Graphics and Visualization helped me understand the complexity of software design and computer graphics. In both courses, I showed that I could apply strong and creative techniques, tools, and skills to build computing solutions that add value and meet goals in the industry. CS340 Client and Server Development and DAT220 Fundamentals of Data Mining taught me how to create and use databases and showed how helpful data can be when solving problems. These courses also helped me learn how to create team environments where different people can work together and support decision-making in computer science.
 
