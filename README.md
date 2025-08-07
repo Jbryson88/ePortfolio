@@ -44,7 +44,7 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
 
-<h6>Artifact One - Travlr Application - Full Stack</h6>
+<h1>Artifact One - Travlr Application - Full Stack</h1>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
 Why I Selected This Artifact
@@ -72,10 +72,10 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 <img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
 
-<H6>Add Trip</H6>
+<H1>Add Trip</H1>
 <img width="75%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png"/>
 
-<h6>Trip added to UI in SPA</h6>
+<h1>Trip added to UI in SPA</h1>
 <img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
 
 
