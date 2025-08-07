@@ -96,7 +96,7 @@ Working on the Travlr application in CS 465 Web Application Development gave me 
 The project also helped me understand the importance of writing clean code and creating responsive layouts that work well on different devices. I practiced using wireframes, building forms, managing user data, and designing page flows that made sense for the user. Most importantly, this project taught me how to think through problems like a software engineer by breaking tasks into smaller steps, testing regularly, and focusing on how users interact with the system. This hands-on experience gave me more confidence in my ability to contribute to real software teams and projects.
 
 <h1>Artifact 2 - Inventory App - Android Mobile Application</h1>
-<a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 <h6>Overview</h6>
 In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
 
