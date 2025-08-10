@@ -1,5 +1,5 @@
 # About Me
-<div class = "Body">
+
 This repository explains how I created my ePortfolio for the CS499 Computer Science Capstone final project. Making a professional portfolio is one of the best ways to show employers my unique skills and talents. The ePortfolio is a good way to clearly present my abilities in the main areas of Computer Science. It includes work from different courses in the program that shows how I have grown in software design and engineering, algorithms and data structures, and databases.
 
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
@@ -152,6 +152,27 @@ Reflection: This project shows my ability to use solid and creative techniques, 
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
 </p>
 
+<style>
+.inventory-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.inventory-row figure {
+  flex: 1 1 48%;
+  text-align: center;
+}
+.inventory-row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+@media (max-width: 768px) {
+  .inventory-row figure {
+    flex: 1 1 100%;
+  }
+}
+</style>
 <!-- Row 1 -->
 <div class="inventory-row">
   <figure>
@@ -200,5 +221,4 @@ I designed and tested solutions to problems by using good algorithms and followi
   </figure>
 </div>
 
-</div>
 </div>
