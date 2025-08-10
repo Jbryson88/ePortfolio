@@ -46,3 +46,48 @@
     display: block;
   }
 }
+
+/* ---------- Inventory App Image Styling ---------- */
+
+/* Container for each row of side-by-side images */
+.inventory-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Each image/figure */
+.inventory-row figure {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fafafa;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Image inside each figure */
+.inventory-row img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+}
+
+/* Caption styling */
+.inventory-row figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Mobile responsiveness: stack vertically */
+@media (max-width: 768px) {
+  .inventory-row {
+    flex-direction: column;
+  }
+}
