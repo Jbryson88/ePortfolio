@@ -138,11 +138,19 @@ Reflection This project shows my ability to use solid and creative techniques, s
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
 
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" />
+<h6>This screen prompts the user to enter their email and password to sign in, with options to register a new account or recover a forgotten password.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true"/>
+<h6>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" />
+<h6>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" />
+<h6>Allows the user to add a new inventory item by entering a description, units, and quantity (adjustable via arrows), with options to “Add Item” or “Cancel.”</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
+<h6></h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
+<h6>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
+<h6>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
+<h6>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h6>
 
