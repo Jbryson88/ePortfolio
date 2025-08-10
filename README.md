@@ -152,86 +152,49 @@ Reflection: This project shows my ability to use solid and creative techniques, 
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
 </p>
 
-<!-- INVENTORY APP: SIDE-BY-SIDE IMAGES -->
-<style>
-  /* Inline styles so GitHub Pages/Markdown will apply them */
-  .inventory-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px 0;
-  }
-  .inventory-row figure {
-    flex: 1 1 48%;   /* ~50% width per figure on desktop */
-    text-align: center;
-    margin: 0;       /* reset default figure margins */
-  }
-  .inventory-row img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    border: 1px solid #bbb;
-  }
-  .inventory-row figcaption {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.4;
-  }
-  @media (max-width: 768px) {
-    .inventory-row figure {
-      flex: 1 1 100%; /* stack on small screens */
-    }
-  }
-</style>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen" style="max-width:100%; height:auto;">
+      <div><strong>Figure A:</strong> Registration screen for creating a new account.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen" style="max-width:100%; height:auto;">
+      <div><strong>Figure B:</strong> Login screen with register/forgot options.</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="App Info" style="max-width:100%; height:auto;">
+      <div><strong>Figure A:</strong> Android app settings page.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add Item" style="max-width:100%; height:auto;">
+      <div><strong>Figure B:</strong> Add new inventory item screen.</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password" style="max-width:100%; height:auto;">
+      <div><strong>Figure A:</strong> Password reset dialog.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Empty Inventory" style="max-width:100%; height:auto;">
+      <div><strong>Figure B:</strong> Blank inventory with Add button and SMS toggle.</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Item" style="max-width:100%; height:auto;">
+      <div><strong>Figure A:</strong> Edit inventory item dialog.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions" style="max-width:100%; height:auto;">
+      <div><strong>Figure B:</strong> SMS permissions dialog.</div>
+    </td>
+  </tr>
+</table>
 
-<!-- Row 1 -->
-<div class="inventory-row">
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen">
-    <figcaption><strong>Figure A:</strong> Registration screen for creating a new account with name, phone, email, and password fields.</figcaption>
-  </figure>
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen">
-    <figcaption><strong>Figure B:</strong> Login screen where users enter email and password, with options to register or recover a password.</figcaption>
-  </figure>
-</div>
-
-<!-- Row 2 -->
-<div class="inventory-row">
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="Application Info">
-    <figcaption><strong>Figure A:</strong> Android app settings page for managing permissions, storage, and uninstall options.</figcaption>
-  </figure>
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add New Inventory">
-    <figcaption><strong>Figure B:</strong> Add new inventory screen with fields for description, units, quantity, and action buttons.</figcaption>
-  </figure>
-</div>
-
-<!-- Row 3 -->
-<div class="inventory-row">
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password">
-    <figcaption><strong>Figure A:</strong> Password reset dialog where users enter a phone number to receive a reset code.</figcaption>
-  </figure>
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Blank Inventory">
-    <figcaption><strong>Figure B:</strong> Blank inventory screen with an “Add” button and SMS alert toggle for low stock notifications.</figcaption>
-  </figure>
-</div>
-
-<!-- Row 4 -->
-<div class="inventory-row">
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Inventory">
-    <figcaption><strong>Figure A:</strong> Edit inventory dialog to update item details like description, units, and quantity.</figcaption>
-  </figure>
-  <figure>
-    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions">
-    <figcaption><strong>Figure B:</strong> SMS permissions dialog prompting the user to enable or disable stock alerts.</figcaption>
-  </figure>
-</div>
 
 
 </div>
