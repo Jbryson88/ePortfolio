@@ -148,9 +148,9 @@ I designed and tested solutions to problems by using good algorithms and followi
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
 <h6>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
-<h6>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h6>
+<h6>Displays an empty inventory on first launch, with a prominent “Add” button to start adding items and a toggle for enabling SMS alerts.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
-<h6>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h6>
+<h6>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h6>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
 <h6>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h6>
 
