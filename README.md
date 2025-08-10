@@ -139,18 +139,25 @@ I designed and tested solutions to problems by using good algorithms and followi
 
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" />
 <h3>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true"/>
 <h3>This screen prompts the user to enter their email and password to sign in, with options to register a new account or recover a forgotten password.</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" />
 <h3>Displays Android's application settings page for managing the app’s permissions (such as SMS), storage usage, and options like “Open” or “Uninstall.”</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" />
 <h3>Allows the user to add a new inventory item by entering a description, units, and quantity (adjustable via arrows), with options to “Add Item” or “Cancel.”</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
 <h3>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
 <h3>Displays an empty inventory on first launch, with a prominent “Add” button to start adding items and a toggle for enabling SMS alerts.</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
 <h3>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h3>
+
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
 <h3>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h3>
 
