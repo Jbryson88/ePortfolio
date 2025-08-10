@@ -103,74 +103,101 @@ Working on the Travlr application in CS 465 Web Application Development gave me 
 
 The project also helped me understand the importance of writing clean code and creating responsive layouts that work well on different devices. I practiced using wireframes, building forms, managing user data, and designing page flows that made sense for the user. Most importantly, this project taught me how to think through problems like a software engineer by breaking tasks into smaller steps, testing regularly, and focusing on how users interact with the system. This hands-on experience gave me more confidence in my ability to contribute to real software teams and projects.
 </div>
-<div id = "artifactTwo">
-<h1 id ="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1>
+
+<div id="artifactTwo">
+<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 <h6>Overview</h6>
+<p>
 In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
-
-Our team took time to understand the goals of the app and the needs of the users so we could build the right solution. We meet every week to review client requests, discuss progress, and assign tasks. Throughout the process, we apply good mobile app development principles and best practices.
-
-The Goal: The Inventory App helps track inventory items through mobile devices. For example, warehouse workers can use the app to manage and automate logistics, which helps the business grow and expand. The app gives users real-time inventory information that can be accessed from anywhere on an Android device.
-
-To meet these goals, the app was requested to include these features:
-
-A database with at least two tables: one for inventory items and one for user logins and passwords.
-
-A sign-in or sign-up screen.
-
-A screen that displays all inventory items in a grid.
-
-A way for users to add and remove items from the inventory.
-
-A way for users to increase or decrease the quantity of specific items.
-
-A notification that alerts users when an item’s quantity reaches zero.
-
-This project shows my ability to design software by understanding user needs and turning those needs into an organized program. It is important to connect the user interface design and layout with the programming part of the app.
-
-As a developer, I start by planning and thinking about the purpose of the app and who will use it. Every group of users is different, so it is important to focus on what they need the most and build those features first. It also helps to look at similar apps to see how they solve similar problems, especially in how they design the user experience. Searching the app store or online for similar apps is a very important step.
-
-There is a lot of information about how to design a good mobile app, and understanding that process is key to making an app that users will like. It is not realistic to think you can make a great app completely on your own. That’s why it is important to work as a team and help each other, from the first planning step to the final launch. Building a strong, collaborative team is essential to follow good practices, improve the design and code, and find new ways to make the app better and meet challenges.
-
-Reflection This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
-
-I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
-
-<p>                                                                                   
-                                                                                                                                                                                                                 
-
 </p>
 
-<h1>Registration Screen</h1>
-<h4>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h4>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" />
+<p>
+Our team took time to understand the goals of the app and the needs of the users so we could build the right solution. We meet every week to review client requests, discuss progress, and assign tasks. Throughout the process, we apply good mobile app development principles and best practices.
+</p>
 
-<h1>Login Screen/h1>
-<h3>This screen prompts the user to enter their email and password to sign in, with options to register a new account or recover a forgotten password.</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true"/>
+<p>
+The Goal: The Inventory App helps track inventory items through mobile devices. For example, warehouse workers can use the app to manage and automate logistics, which helps the business grow and expand. The app gives users real-time inventory information that can be accessed from anywhere on an Android device.
+</p>
 
-<h1>Application Information</h1>
-<h3>Displays Android's application settings page for managing the app’s permissions (such as SMS), storage usage, and options like “Open” or “Uninstall.”</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" />
+<p>
+To meet these goals, the app was requested to include these features:
+</p>
+<ul>
+  <li>A database with at least two tables: one for inventory items and one for user logins and passwords.</li>
+  <li>A sign-in or sign-up screen.</li>
+  <li>A screen that displays all inventory items in a grid.</li>
+  <li>A way for users to add and remove items from the inventory.</li>
+  <li>A way for users to increase or decrease the quantity of specific items.</li>
+  <li>A notification that alerts users when an item’s quantity reaches zero.</li>
+</ul>
 
-<h1>Add New Inventory Screen</h1>
-<h3>Allows the user to add a new inventory item by entering a description, units, and quantity (adjustable via arrows), with options to “Add Item” or “Cancel.”</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" />
+<p>
+This project shows my ability to design software by understanding user needs and turning those needs into an organized program. It is important to connect the user interface design and layout with the programming part of the app.
+</p>
 
-<h1>Forgotten Password Screen/h1>
-<h3>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
+<p>
+As a developer, I start by planning and thinking about the purpose of the app and who will use it. Every group of users is different, so it is important to focus on what they need the most and build those features first. It also helps to look at similar apps to see how they solve similar problems, especially in how they design the user experience. Searching the app store or online for similar apps is a very important step.
+</p>
 
-<h1>Blank Inventory Screen</h1>
-<h3>Displays an empty inventory on first launch, with a prominent “Add” button to start adding items and a toggle for enabling SMS alerts.</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
+<p>
+There is a lot of information about how to design a good mobile app, and understanding that process is key to making an app that users will like. It is not realistic to think you can make a great app completely on your own. That’s why it is important to work as a team and help each other, from the first planning step to the final launch. Building a strong, collaborative team is essential to follow good practices, improve the design and code, and find new ways to make the app better and meet challenges.
+</p>
 
-<h1>Edit Inventory Screen</h1>
-<h3>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
+<p>
+Reflection: This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
+</p>
 
-<h1>SMS Request Permissions</h1>
-<h3>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h3>
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
+<p>
+I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
+</p>
+
+<!-- Row 1 -->
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen"/>
+    <figcaption><strong>Figure A:</strong> Registration screen for creating a new account with name, phone, email, and password fields.</figcaption>
+  </figure>
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen"/>
+    <figcaption><strong>Figure B:</strong> Login screen where users enter email and password, with options to register or recover a password.</figcaption>
+  </figure>
 </div>
+
+<!-- Row 2 -->
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="Application Info"/>
+    <figcaption><strong>Figure A:</strong> Android app settings page for managing permissions, storage, and uninstall options.</figcaption>
+  </figure>
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add New Inventory"/>
+    <figcaption><strong>Figure B:</strong> Add new inventory screen with fields for description, units, quantity, and action buttons.</figcaption>
+  </figure>
+</div>
+
+<!-- Row 3 -->
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password"/>
+    <figcaption><strong>Figure A:</strong> Password reset dialog where users enter a phone number to receive a reset code.</figcaption>
+  </figure>
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Blank Inventory"/>
+    <figcaption><strong>Figure B:</strong> Blank inventory screen with an “Add” button and SMS alert toggle for low stock notifications.</figcaption>
+  </figure>
+</div>
+
+<!-- Row 4 -->
+<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Inventory"/>
+    <figcaption><strong>Figure A:</strong> Edit inventory dialog to update item details like description, units, and quantity.</figcaption>
+  </figure>
+  <figure style="flex: 1; min-width: 300px;">
+    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions"/>
+    <figcaption><strong>Figure B:</strong> SMS permissions dialog prompting the user to enable or disable stock alerts.</figcaption>
+  </figure>
+</div>
+</div>
+
