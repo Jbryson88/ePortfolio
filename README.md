@@ -136,28 +136,37 @@ There is a lot of information about how to design a good mobile app, and underst
 Reflection This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
 
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
+</br>
 
+<h1>Registration Screen</h1>
+<h4>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h4>
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" />
-<h3>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h3>
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true"/>
+<h1>Login Screen/h1>
 <h3>This screen prompts the user to enter their email and password to sign in, with options to register a new account or recover a forgotten password.</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true"/>
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" />
+<h1>Application Information</h1>
 <h3>Displays Android's application settings page for managing the app’s permissions (such as SMS), storage usage, and options like “Open” or “Uninstall.”</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" />
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" />
+<h1>Add New Inventory Screen</h1>
 <h3>Allows the user to add a new inventory item by entering a description, units, and quantity (adjustable via arrows), with options to “Add Item” or “Cancel.”</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" />
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
+<h1>Forgotten Password Screen/h1>
 <h3>A modal dialog where users enter their phone number to receive a password reset, or choose “Cancel” to dismiss the request.</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" />
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
+<h1>Blank Inventory Screen</h1>
 <h3>Displays an empty inventory on first launch, with a prominent “Add” button to start adding items and a toggle for enabling SMS alerts.</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" />
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
+<h1>Edit Inventory Screen</h1>
 <h3>Shows a pop-up dialog that lets the user update item details like description, unit, or quantity, with “Save” and “Cancel” buttons.</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" />
 
-<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
+<h1>SMS Request Permissions</h1>
 <h3>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h3>
+<img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
 </div>
