@@ -51,8 +51,8 @@ I also designed and improved solutions that solve problems using algorithmic thi
 I am excited to take on new challenges that help me grow. I stay committed to completing my work, even when it is difficult. I believe in asking for help when needed, and I see it as a way to learn from more experienced coworkers and mentors. I want to be part of a team that works together to build creative and useful solutions. I bring strong organization skills, a love of learning, and a positive attitude. I am ready to explore new technologies and build the skills needed to succeed. I am motivated to keep pushing forward and to do my best in every opportunity.
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
-<div class = "artifactOne">
-<h1>Artifact One - Travlr Application - Full Stack</h1>
+<div id = "artifactOne">
+<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
@@ -81,7 +81,7 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 <img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
 
-<H1>Add Trip</H1>
+<H1 >Add Trip</H1>
 <img width="75%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png"/>
 
 I created a form that allowed me to add a new trip to the system. I filled out fields like the trip code, name, number of days, start date, resort name, cost per person, image file name, and a short description. After entering the details, I clicked the "Save" button, which triggered the logic to store the new trip information into the backend database.
@@ -103,8 +103,8 @@ Working on the Travlr application in CS 465 Web Application Development gave me 
 
 The project also helped me understand the importance of writing clean code and creating responsive layouts that work well on different devices. I practiced using wireframes, building forms, managing user data, and designing page flows that made sense for the user. Most importantly, this project taught me how to think through problems like a software engineer by breaking tasks into smaller steps, testing regularly, and focusing on how users interact with the system. This hands-on experience gave me more confidence in my ability to contribute to real software teams and projects.
 </div>
-<div class = "artifactTwo">
-<h1>Artifact 2 - Inventory App - Android Mobile Application</h1>
+<div id = "artifactTwo">
+<h1 id ="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 <h6>Overview</h6>
 In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
@@ -160,4 +160,4 @@ I designed and tested solutions to problems by using good algorithms and followi
 
 <img width="513px" height="1040px" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" />
 <h3>Requests permission to send SMS alerts when stock falls low, with clear “Enable” and “Disable” choices.</h3>
-
+</div>
