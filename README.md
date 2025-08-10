@@ -153,51 +153,52 @@ I designed and tested solutions to problems by using good algorithms and followi
 </p>
 
 <!-- Row 1 -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen"/>
+<div class="inventory-row">
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen">
     <figcaption><strong>Figure A:</strong> Registration screen for creating a new account with name, phone, email, and password fields.</figcaption>
   </figure>
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen"/>
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen">
     <figcaption><strong>Figure B:</strong> Login screen where users enter email and password, with options to register or recover a password.</figcaption>
   </figure>
 </div>
 
 <!-- Row 2 -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="Application Info"/>
+<div class="inventory-row">
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="Application Info">
     <figcaption><strong>Figure A:</strong> Android app settings page for managing permissions, storage, and uninstall options.</figcaption>
   </figure>
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add New Inventory"/>
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add New Inventory">
     <figcaption><strong>Figure B:</strong> Add new inventory screen with fields for description, units, quantity, and action buttons.</figcaption>
   </figure>
 </div>
 
 <!-- Row 3 -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password"/>
+<div class="inventory-row">
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password">
     <figcaption><strong>Figure A:</strong> Password reset dialog where users enter a phone number to receive a reset code.</figcaption>
   </figure>
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Blank Inventory"/>
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Blank Inventory">
     <figcaption><strong>Figure B:</strong> Blank inventory screen with an “Add” button and SMS alert toggle for low stock notifications.</figcaption>
   </figure>
 </div>
 
 <!-- Row 4 -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Inventory"/>
+<div class="inventory-row">
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Inventory">
     <figcaption><strong>Figure A:</strong> Edit inventory dialog to update item details like description, units, and quantity.</figcaption>
   </figure>
-  <figure style="flex: 1; min-width: 300px;">
-    <img width="100%" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions"/>
+  <figure>
+    <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions">
     <figcaption><strong>Figure B:</strong> SMS permissions dialog prompting the user to enable or disable stock alerts.</figcaption>
   </figure>
 </div>
+
 </div>
 
