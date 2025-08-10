@@ -8,7 +8,7 @@ Some of the projects show my skills in one area while also showing strengths in 
   <nav class="toc" aria-label="Table of contents">
     <h2>Table of Contents</h2>
     <ol>
-      <li><a href="#artifactOne">Artifact One/a></li>
+      <li><a href="#artifactOne">Artifact One</a></li>
       <li><a href="#artifactTwo">Artifact Two</a></li>
       <li><a href="#artifactThree">Artifact Three</a></li>
     </ol>
