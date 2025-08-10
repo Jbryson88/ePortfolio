@@ -152,27 +152,39 @@ Reflection: This project shows my ability to use solid and creative techniques, 
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
 </p>
 
+<!-- INVENTORY APP: SIDE-BY-SIDE IMAGES -->
 <style>
-.inventory-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.inventory-row figure {
-  flex: 1 1 48%;
-  text-align: center;
-}
-.inventory-row img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-@media (max-width: 768px) {
-  .inventory-row figure {
-    flex: 1 1 100%;
+  /* Inline styles so GitHub Pages/Markdown will apply them */
+  .inventory-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
   }
-}
+  .inventory-row figure {
+    flex: 1 1 48%;   /* ~50% width per figure on desktop */
+    text-align: center;
+    margin: 0;       /* reset default figure margins */
+  }
+  .inventory-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+  }
+  .inventory-row figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+  }
+  @media (max-width: 768px) {
+    .inventory-row figure {
+      flex: 1 1 100%; /* stack on small screens */
+    }
+  }
 </style>
+
 <!-- Row 1 -->
 <div class="inventory-row">
   <figure>
@@ -220,5 +232,6 @@ I designed and tested solutions to problems by using good algorithms and followi
     <figcaption><strong>Figure B:</strong> SMS permissions dialog prompting the user to enable or disable stock alerts.</figcaption>
   </figure>
 </div>
+
 
 </div>
