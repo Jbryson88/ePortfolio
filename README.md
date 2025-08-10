@@ -5,6 +5,14 @@ This repository explains how I created my ePortfolio for the CS499 Computer Scie
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
 
+  <nav class="toc" aria-label="Table of contents">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#artifactOne">Artifact One/a></li>
+      <li><a href="#artifactTwo">Artifact Two</a></li>
+      <li><a href="#artifactThree">Artifact Three</a></li>
+    </ol>
+  </nav>
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
 I started the Computer Science program in September 2020 and have studied for about five years. I joined the program to improve my background in programming and developing applications and web services. I chose this path because I have always been passionate about working with computers and technology. I enjoy web development and have also led some IT projects and helped set up IT systems while working in the field of architecture.
@@ -43,7 +51,7 @@ I also designed and improved solutions that solve problems using algorithmic thi
 I am excited to take on new challenges that help me grow. I stay committed to completing my work, even when it is difficult. I believe in asking for help when needed, and I see it as a way to learn from more experienced coworkers and mentors. I want to be part of a team that works together to build creative and useful solutions. I bring strong organization skills, a love of learning, and a positive attitude. I am ready to explore new technologies and build the skills needed to succeed. I am motivated to keep pushing forward and to do my best in every opportunity.
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
-
+<div class = "artifactOne">
 <h1>Artifact One - Travlr Application - Full Stack</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
 
@@ -94,7 +102,8 @@ After making edits, I clicked the "Save" button, and the updated information was
 Working on the Travlr application in CS 465 Web Application Development gave me real experience in planning, designing, and building a complete web-based software project. This assignment helped me grow the skills I need as a software engineer, such as both front-end and back-end development, organizing code, and using version control tools like Git. I learned how to create a multi-page application, design user-friendly interfaces using HTML, CSS, and JavaScript, and connect those pages to dynamic content through server-side logic.
 
 The project also helped me understand the importance of writing clean code and creating responsive layouts that work well on different devices. I practiced using wireframes, building forms, managing user data, and designing page flows that made sense for the user. Most importantly, this project taught me how to think through problems like a software engineer by breaking tasks into smaller steps, testing regularly, and focusing on how users interact with the system. This hands-on experience gave me more confidence in my ability to contribute to real software teams and projects.
-
+</div>
+<div class = "artifactTwo">
 <h1>Artifact 2 - Inventory App - Android Mobile Application</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 <h6>Overview</h6>
