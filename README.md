@@ -136,7 +136,11 @@ There is a lot of information about how to design a good mobile app, and underst
 Reflection This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
 
 I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
-</br>
+
+<p>                                                                                   
+                                                                                                                                                                                                                 
+
+</p>
 
 <h1>Registration Screen</h1>
 <h4>Here, new users can input their name, phone number, email, and password to create an account, with a clear “Cancel” option to back out.</h4>
