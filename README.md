@@ -57,7 +57,7 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 <div id = "artifactOne">
 <h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
-<a href="https://jbryson88.github.io/ePortfolio/">Back to top</a>
+<a href="#top">Back to top</a>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
 Why I Selected This Artifact
@@ -121,7 +121,8 @@ The project also helped me understand the importance of writing clean code and c
 <div id="artifactTwo">
 <h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
-<a href="https://jbryson88.github.io/ePortfolio/">Back to top</a> 
+<a href="#top">Back to top</a>
+
 <h6>Overview</h6>
 <p>
 In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
@@ -213,7 +214,8 @@ I designed and tested solutions to problems by using good algorithms and followi
 <div id = "artifactThree">
 <h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development">CS340 Enhancement</a></h3>
-<a href="https://jbryson88.github.io/ePortfolio/">Back to top</a>
+<a href="#top">Back to top</a>
+
 <h1>Artifact Overview</h1>
       
 The artifact I selected for the databases category is the Salvare Search for Rescue Web App. I created this project during the CS340 Client/Server Development course. It is a web application built in Python using the Dash framework and the MongoDB database. The app helps animal shelters organize and search through their dog records to identify good candidates for rescue training. The database uses a CSV file of shelter dogs that gets imported into MongoDB. The application can be run in Jupyter Notebook or the computer terminal using a browser.
