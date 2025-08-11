@@ -21,6 +21,6 @@ Overall, this project shows how I can build a working database application, impr
 
 Here is a view of the live dashboard created for the Salvare Search for Rescue Web App.
 
-<img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS340%20-%20Client:Server%20Development/SalvareDashboard.png?raw=true"</img>
+<img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS340%20-%20Client:Server%20Development/SalvareDashboard.png?raw=true"/>
  
 
