@@ -155,41 +155,41 @@ I designed and tested solutions to problems by using good algorithms and followi
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure A:</strong> Registration screen for creating a new account.</div>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure B:</strong> Login screen with register/forgot options.</div>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="App Info" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="App Info" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure A:</strong> Android app settings page.</div>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add Item" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add Item" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure B:</strong> Add new inventory item screen.</div>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure A:</strong> Password reset dialog.</div>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Empty Inventory" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Empty Inventory" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure B:</strong> Blank inventory with Add button and SMS toggle.</div>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Item" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Item" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure A:</strong> Edit inventory item dialog.</div>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions" style="max-width:100%; height:auto;">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions" style="max-width:100%; height:auto; padding:10px">
       <div><strong>Figure B:</strong> SMS permissions dialog.</div>
     </td>
   </tr>
