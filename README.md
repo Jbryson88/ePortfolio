@@ -34,6 +34,16 @@ Throughout this program and my time in the military, I became more confident in 
 
 <img width="100%" height="175" alt="coding" src="https://img.freepik.com/premium-vector/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming-software-development-program-coding_198278-4192.jpg" />
 
+<h4>Outcomes addressed</h4>
+<ul>
+  <li>Software design and engineering — refactored controller logic and error handling.</li>
+  <li>Algorithms and data structures — added sorting/searching for item lists.</li>
+  <li>Databases — input validation, indexing, and stable CRUD flows.</li>
+  <li>Security mindset — explicit input validation and clear failure modes.</li>
+  <li>Professional communication — narrative + code review video walkthrough.</li>
+</ul>
+
+
 Each course in the Computer Science program has played an important role in helping me gain the knowledge, skills, and abilities needed to pursue a career in this field. While I have learned a great deal outside of the classroom, certain courses had a greater impact and helped shape the direction I originally set out to follow when I joined the program. These courses helped me discover strengths I didn’t realize I had and gave me the chance to grow in areas I had not explored before. Because of that, I selected artifacts that clearly demonstrate and highlight the skills I gained from these experiences.
 
 In CS250 Software Development Lifecycle, I learned how important the development process is and how strong communication with team members and clients supports a project’s success. IT145 Foundation in Application Development and CS260 Data Structures and Algorithms taught me valuable lessons about algorithms and data structures. These courses helped me strengthen my ability to design and evaluate solutions to real-world problems using proper computer science methods and design trade-offs. CS310 Collaboration and Team Project helped me understand the value of teamwork and showed how essential collaboration is for completing large-scale projects.
@@ -59,6 +69,18 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 <div id = "artifactOne">
 <h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1><h2><a href="#top">Back to top</a></h2>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
+
+<section id="code-review">
+  <h2>Code Review Video</h2>
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/watch?v=vqiubqdfFng" 
+    title="Code Review Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</section>
+
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
 Why I Selected This Artifact
