@@ -5,14 +5,14 @@ This repository explains how I created my ePortfolio for the CS499 Computer Scie
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
 
-  <nav class="toc" aria-label="Table of contents">
+  <h3><nav class="toc" aria-label="Table of contents">
     <h2>Table of Contents</h2>
     <ol>
       <li><a href="#artifactOne">Artifact One</a></li>
       <li><a href="#artifactTwo">Artifact Two</a></li>
       <li><a href="#artifactThree">Artifact Three</a></li>
     </ol>
-  </nav>
+  </nav></h3>
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
 <h5>If you wish to build an apple pie from scratch, you must first invent the universe.</h5>
