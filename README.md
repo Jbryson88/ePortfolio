@@ -70,18 +70,37 @@ Reflection on the Process
 Working on these enhancements taught me a lot about why clean and secure code matters. I learned how moving business logic into cleaner, more maintainable code and adding good validation make the app more reliable. I also learned how responsive design and user-friendly error messages improve usability. A challenge I faced was making sure my backend changes didn’t break existing functionality and testing my CSS changes on different screen sizes. Overall, I am proud of the improvements I made and feel more confident in my ability to deliver professional-quality software.
 
 
-1: Backend: Improved Input Validation and Error Handling
-•	Added validation to the trips.js controller for tripCode parameter to ensure it is provided and valid.
-•	Fixed the response logic to correctly return 200 if a trip is found, or 404 with a clear message if not.
-•	Added proper server error handling (500) with helpful error output.
-2: Frontend: Navigation and Usability
-•	Added a responsive navigation bar to the top of each page (index.html, about.html, contact.html), with links to all main sections of the site.
-•	Added breadcrumbs below the navbar on each page to show the user’s current location.
-3: Frontend: Input Validation
-•	Added required attributes to form inputs and textareas in contact.html to prevent submitting empty forms and improve user experience.
-4: Frontend: Responsive Design
-•	Added media queries to styles.css to make the site look better on tablets and mobile screens.
-•	Adjusted layout so navbar stacks vertically on small screens and buttons and text resize appropriately.
+<ol>
+  <li>
+    <strong>Backend: Improved Input Validation and Error Handling</strong>
+    <ul>
+      <li>Added validation to the trips.js controller for tripCode parameter to ensure it is provided and valid.</li>
+      <li>Fixed the response logic to correctly return 200 if a trip is found, or 404 with a clear message if not.</li>
+      <li>Added proper server error handling (500) with helpful error output.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Navigation and Usability</strong>
+    <ul>
+      <li>Added a responsive navigation bar to the top of each page (index.html, about.html, contact.html), with links to all main sections of the site.</li>
+      <li>Added breadcrumbs below the navbar on each page to show the user’s current location.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Input Validation</strong>
+    <ul>
+      <li>Added required attributes to form inputs and textareas in contact.html to prevent submitting empty forms and improve user experience.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Responsive Design</strong>
+    <ul>
+      <li>Added media queries to styles.css to make the site look better on tablets and mobile screens.</li>
+      <li>Adjusted layout so navbar stacks vertically on small screens and buttons and text resize appropriately.</li>
+    </ul>
+  </li>
+</ol>
+
 
 <img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
