@@ -224,6 +224,11 @@ Overall, this project shows how I can build a working database application, impr
 <h4>Here is a view of the live dashboard created for the Salvare Search for Rescue Web App.</h4>
 </div>
 
+<h1>Final Thoughts</h1>
 
+My journey through the Computer Science program at SNHU has been a defining chapter in my life. It sharpened my technical expertise, strengthened my problem-solving mindset, and fueled my passion for creating meaningful solutions.
 
+Now, as a software engineer, I apply these skills every day as I build, innovate, and adapt in a field that never stops evolving. This program did not just prepare me for a job; it prepared me for a lifetime of growth in technology.
+
+The lessons I have learned here will guide me long after graduation, reminding me that curiosity is the spark of innovation and persistence is the key to success. This is not the end of my journey. It is the foundation for everything still to come.
 </div>
