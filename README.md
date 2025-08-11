@@ -197,7 +197,7 @@ I designed and tested solutions to problems by using good algorithms and followi
 
 <div id = "artifactThree">
 <h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1>
-<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development>CS 340 Enhancement</a></h3>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development">CS 340 Enhancement</a></h3>
 <h1>Artifact Overview</h1>
       
 The artifact I selected for the databases category is the Salvare Search for Rescue Web App. I created this project during the CS340 Client/Server Development course. It is a web application built in Python using the Dash framework and the MongoDB database. The app helps animal shelters organize and search through their dog records to identify good candidates for rescue training. The database uses a CSV file of shelter dogs that gets imported into MongoDB. The application can be run in Jupyter Notebook or the computer terminal using a browser.
