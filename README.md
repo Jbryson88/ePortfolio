@@ -144,7 +144,7 @@ The project also helped me understand the importance of writing clean code and c
 <h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1><h2><a href="#top">Back to top</a></h2>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 
-<h6>Overview</h6>
+<h2>Overview</h2>
 <p>
 In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
 </p>
