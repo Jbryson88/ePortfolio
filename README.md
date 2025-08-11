@@ -211,7 +211,6 @@ This artifact also includes RESTful API practices, which are very common in prof
 Yes, I met the course outcomes I planned for this enhancement. My goal was to improve my skills in using databases, following secure coding practices, and documenting my work clearly. I now better understand how to set up a database connection, validate user input, and use version changes in database tools. I also learned to organize and format my code to make it easier to read and maintain. I do not have any changes to my outcome plans right now.
 
 
-
 <h1>Reflection on Enhancing the Artifact</h1>
 Improving this project taught me a lot about working in different operating systems. Since the original app was built in a remote Linux lab, I had to set up Python, Dash, and MongoDB from scratch on my personal Windows machine. It was hard to match everything exactly, especially since newer software versions required changes to the original code. I had to modify the Create method in the CRUD module to match PyMongo version 4.0.
 
