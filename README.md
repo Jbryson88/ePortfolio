@@ -69,6 +69,8 @@ These enhancements helped me meet some of the program’s outcomes, like using s
 Reflection on the Process
 Working on these enhancements taught me a lot about why clean and secure code matters. I learned how moving business logic into cleaner, more maintainable code and adding good validation make the app more reliable. I also learned how responsive design and user-friendly error messages improve usability. A challenge I faced was making sure my backend changes didn’t break existing functionality and testing my CSS changes on different screen sizes. Overall, I am proud of the improvements I made and feel more confident in my ability to deliver professional-quality software.
 
+<h2>What I did:</h2>
+
 
 <ol>
   <li>
