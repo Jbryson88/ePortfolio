@@ -29,3 +29,5 @@ Detailed Enhancements Completed
 •	Adjusted layout so navbar stacks vertically on small screens and buttons and text resize appropriately.
 
 <img src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
+
+[![SNHU CS499 Repository](https://img.shields.io/badge/repo-CS499-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/Jbryson88/ePortfolio "Back to CS499 Repo") [![ePortfolio Home](https://img.shields.io/badge/Home-ePortfolio-blue.svg?style=for-the-badge&logo=homeassistant)]([https://jbryson88.github.io](https://github.com/Jbryson88/ePortfolio))[![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
