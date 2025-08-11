@@ -55,9 +55,8 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
 <div id = "artifactOne">
-<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1>
+<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1><a href="#top">Back to top</a>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
-<a href="#top">Back to top</a>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
 Why I Selected This Artifact
@@ -119,9 +118,8 @@ The project also helped me understand the importance of writing clean code and c
 </div>
 
 <div id="artifactTwo">
-<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1>
+<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1><a href="#top">Back to top</a>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
-<a href="#top">Back to top</a>
 
 <h6>Overview</h6>
 <p>
@@ -212,9 +210,8 @@ I designed and tested solutions to problems by using good algorithms and followi
 </table>
 
 <div id = "artifactThree">
-<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1>
+<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1><a href="#top">Back to top</a>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development">CS340 Enhancement</a></h3>
-<a href="#top">Back to top</a>
 
 <h1>Artifact Overview</h1>
       
