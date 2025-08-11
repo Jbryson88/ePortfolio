@@ -6,8 +6,6 @@
 
 ---
 
-[![Generic badge](https://img.shields.io/badge/development_tool-Android_Studio-red.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/language-JAVA-blue.svg)](https://isocpp.org/) [![Generic badge](https://img.shields.io/badge/database-SQLite-green.svg)](https://sqlite.org/index.html) [![Generic badge](https://img.shields.io/badge/ide-Android_Studio-purple.svg)](https://developer.android.com/studio/) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
-
 Overview
 
 
