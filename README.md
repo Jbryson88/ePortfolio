@@ -72,14 +72,21 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 
 <section id="code-review">
   <h2>Code Review Video</h2>
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/watch?v=vqiubqdfFng" 
-    title="Code Review Video" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+    <iframe
+      src="https://www.youtube.com/embed/vqiubqdfFng?rel=0"
+      title="Code Review: CS499 Capstone"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+  <p style="margin-top:8px;">
+    Can’t see the embed? <a href="https://youtu.be/vqiubqdfFng" target="_blank" rel="noopener">Watch on YouTube</a>.
+  </p>
 </section>
+
 
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
