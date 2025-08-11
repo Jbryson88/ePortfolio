@@ -195,6 +195,10 @@ I designed and tested solutions to problems by using good algorithms and followi
   </tr>
 </table>
 
+<div id = "artifactThree">
+<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development>CS 340 Enhancement</a></h3>
+
 
 
 </div>
