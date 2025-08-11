@@ -80,21 +80,31 @@ Working on these enhancements taught me a lot about why clean and secure code ma
 
 <img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
-
+<div>
 <H1 >Add Trip</H1>
 <img width="75%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png"/>
+</div>
 
 I created a form that allowed me to add a new trip to the system. I filled out fields like the trip code, name, number of days, start date, resort name, cost per person, image file name, and a short description. After entering the details, I clicked the "Save" button, which triggered the logic to store the new trip information into the backend database.
+
+<div>
 <h1>Trip added to UI in SPA</h1>
 <img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
+</div>
 
 Once the trip was added, it appeared on the main user interface of the single-page application. I built this part of the UI to dynamically display all trips stored in the database. Each trip is shown in a card format with its name, description, duration, and price. This confirmed that the trip I just added was correctly saved and rendered through the application.
+
+<div>
 <h1>Editing the trip</h1>
 <img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Edit%20Trip.png"/>
+</div>
 
 Next, I clicked the "Edit Trip" button on one of the displayed trip cards. This opened a pre-filled form where I could update the trip’s details. I changed values such as the trip name, resort name, number of days, image, and description. This form allowed me to modify existing trip data easily.
+
+<div>
 <h1>Trip updated in both database and displayed in UI</h1>
 <img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Updated%20Trip.png"/>
+</div>
 
 After making edits, I clicked the "Save" button, and the updated information was saved to the backend. The changes were immediately reflected on the UI, confirming that my update logic worked correctly. I verified that the revised trip details replaced the old ones without needing a page reload.
 
