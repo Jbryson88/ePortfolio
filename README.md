@@ -15,8 +15,8 @@ Some of the projects show my skills in one area while also showing strengths in 
   </nav>
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
-> If you wish to build an apple pie from scratch, you must first invent the universe.
-> Carl Sagan
+<h5>If you wish to build an apple pie from scratch, you must first invent the universe.</h5>
+> -**Carl Sagan**
 
 I started the Computer Science program in September 2020 and have studied for about five years. I joined the program to improve my background in programming and developing applications and web services. I chose this path because I have always been passionate about working with computers and technology. I enjoy web development and have also led some IT projects and helped set up IT systems while working in the field of architecture.
 
