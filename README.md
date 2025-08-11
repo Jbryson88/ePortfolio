@@ -5,14 +5,16 @@ This repository explains how I created my ePortfolio for the CS499 Computer Scie
 Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
 
-  <h3><nav class="toc" aria-label="Table of contents">
+ <nav class="toc" aria-label="Table of contents">
     <h2>Table of Contents</h2>
     <ol>
+      <h3>
       <li><a href="#artifactOne">Artifact One</a></li>
       <li><a href="#artifactTwo">Artifact Two</a></li>
       <li><a href="#artifactThree">Artifact Three</a></li>
+    </h3>
     </ol>
-  </nav></h3>
+  </nav>
 <img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
 <h5>If you wish to build an apple pie from scratch, you must first invent the universe.</h5>
@@ -55,7 +57,7 @@ I am excited to take on new challenges that help me grow. I stay committed to co
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
 <div id = "artifactOne">
-<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1><a href="#top">Back to top</a>
+<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1><h2><a href="#top">Back to top</a></h2>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
 
 The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
@@ -118,7 +120,7 @@ The project also helped me understand the importance of writing clean code and c
 </div>
 
 <div id="artifactTwo">
-<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1><a href="#top">Back to top</a>
+<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1><h2><a href="#top">Back to top</a></h2>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 
 <h6>Overview</h6>
@@ -210,7 +212,7 @@ I designed and tested solutions to problems by using good algorithms and followi
 </table>
 
 <div id = "artifactThree">
-<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1><a href="#top">Back to top</a>
+<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1><h2><a href="#top">Back to top</a></h2>
 <h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development">CS340 Enhancement</a></h3>
 
 <h1>Artifact Overview</h1>
@@ -246,4 +248,5 @@ My journey through the Computer Science program at SNHU has been a defining chap
 Now, as a software engineer, I apply these skills every day as I build, innovate, and adapt in a field that never stops evolving. This program did not just prepare me for a job; it prepared me for a lifetime of growth in technology.
 
 The lessons I have learned here will guide me long after graduation, reminding me that curiosity is the spark of innovation and persistence is the key to success. This is not the end of my journey. It is the foundation for everything still to come.
+<h2><a href="#top">Back to top</a></h2>
 </div>
