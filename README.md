@@ -219,9 +219,8 @@ This process improved my ability to solve technical problems on my own. I also l
 Overall, this project shows how I can build a working database application, improve it to work in new environments, and document everything clearly for future use. It fits well in my ePortfolio and proves my growth in using databases in real-world applications.
  
 
-Here is a view of the live dashboard created for the Salvare Search for Rescue Web App.
-
 <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS340%20-%20Client:Server%20Development/SalvareDashboard.png?raw=true"/>
+<h4>Here is a view of the live dashboard created for the Salvare Search for Rescue Web App.</h4>
 
 
 
