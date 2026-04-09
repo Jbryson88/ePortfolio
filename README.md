@@ -1,634 +1,302 @@
-# John Bryson - Software Engineer & iOS Developer
+# About Me
 
-**U.S. Army Veteran | Active Secret Clearance | iOS Developer**
+This repository explains how I created my ePortfolio for the CS499 Computer Science Capstone final project. Making a professional portfolio is one of the best ways to show employers my unique skills and talents. The ePortfolio is a good way to clearly present my abilities in the main areas of Computer Science. It includes work from different courses in the program that shows how I have grown in software design and engineering, algorithms and data structures, and databases.
 
-John.bryson710@gmail.com | (719) 374-2074 | Rockland, MA | [LinkedIn](#) | [GitHub](#) | [Portfolio](#)
+Some of the projects show my skills in one area while also showing strengths in other areas. As part of my own practice, I improved the projects and made them better than what the courses required. I fixed problems, improved quality, and made them more secure. The portfolio shows that I am highly motivated, organized, and skilled as a Computer Science major focusing on Software Engineering.
 
----
 
-<nav class="toc" aria-label="Table of contents">
-  <h2>Table of Contents</h2>
-  <ol>
-    <h3>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#experience">Professional Experience</a></li>
-      <li><a href="#ios-apps">iOS Applications</a></li>
-      <li><a href="#writecoach">WriteCoach</a></li>
-      <li><a href="#neurodecks">Neurodecks</a></li>
-      <li><a href="#prepai">PrepAI</a></li>
-      <li><a href="#technical-skills">Technical Skills</a></li>
+ <nav class="toc" aria-label="Table of contents">
+    <h2>Table of Contents</h2>
+    <ol>
+      <h3>
+      <li><a href="#artifactOne">Artifact One</a></li>
+      <li><a href="#artifactTwo">Artifact Two</a></li>
+      <li><a href="#artifactThree">Artifact Three</a></li>
     </h3>
-  </ol>
-</nav>
+    </ol>
+  </nav>
+<img width="100%" height="175" alt="selfassessment" src="https://github.com/user-attachments/assets/5085dbd2-d288-4a54-ad07-0c47488ed2e6" />
 
-<img width="100%" height="175" alt="software development" src="https://img.freepik.com/premium-vector/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming-software-development-program-coding_198278-4192.jpg" />
+> <h5>If you wish to build an apple pie from scratch, you must first invent the universe.</h5>
+> <h5>Carl Sagan</h5>
 
-<div id="about">
+I started the Computer Science program in September 2020 and have studied for about five years. I joined the program to improve my background in programming and developing applications and web services. I chose this path because I have always been passionate about working with computers and technology. I enjoy web development and have also led some IT projects and helped set up IT systems while working in the field of architecture.
 
-## About Me
+During my time in the Computer Science program, I learned and improved many skills and gained a lot of knowledge. I became better at paying attention to details and thinking about security, which are both very important for working as a software engineer and developer. I also learned how to stay organized and careful when writing code by breaking it into smaller parts and testing it step by step. Testing is very important to make sure a program works well and does not have weaknesses or problems, and it becomes even more important as a project gets bigger and more complex. Thinking like a tester and always keeping security in mind are skills I continue to improve.
 
-> <h5>The best way to predict the future is to invent it.</h5>
-> <h5>Alan Kay</h5>
+Working on big projects helped me learn how important the Software Development Lifecycle (SDLC) is. I also learned how to use project management strategies whether I am working alone or with a team. Planning a large project takes a lot of organization, and it is important to work well with other people. Understanding what a client wants is part of the SDLC, and I learned how to turn those needs into algorithms and code. Being able to do that feels great and rewarding. These experiences have helped me improve soft skills like creativity, communication, time management, and teamwork.
 
-I'm a Software Engineer and iOS Developer with a unique background spanning defense contracting and consumer app development. My career began in the U.S. Army, where I developed the discipline, leadership skills, and problem-solving mindset that continue to drive my work today. After transitioning to civilian software engineering, I've spent the past four years building mission-critical applications for the Department of Defense while simultaneously pursuing my passion for iOS development.
+Paying close attention to detail is an important part of writing high-quality code. It connects to reviewing code carefully, following security rules, and using professional coding practices. I learned that thinking about security early in a project is better than waiting until the end. This mindset supports a “zero trust” approach, which makes my code safer and more reliable. When I check my own code or review someone else’s, I often find small problems that were missed during development. Following coding standards and using clear formatting helps me write software that is easy to understand and fix later. I also ask classmates or coworkers to review my work. When someone else looks at it with fresh eyes, they can spot mistakes I may have overlooked. These experiences have helped me become better at catching details and sharing ideas clearly.
 
-My professional experience has taught me how to write secure, reliable code that performs under pressure. Working with defense systems requires an unwavering commitment to quality, security, and attention to detail. These same principles guide my iOS development work, where I build consumer applications that prioritize user privacy, clean architecture, and thoughtful design.
+My experience as a U.S. Army veteran played a big role in building these habits. In the Army, I learned how to follow instructions, stay calm under pressure, and work with others as a team. I supported large military operations and handled important data for over 250 soldiers at a time. I helped develop and improve tracking systems using Excel and Python, which are now used by the U.S. Army TRADOC across many locations. I also worked with soldiers from other countries, including NATO forces, during training exercises in Europe. These experiences made me strong at solving problems, managing time, and communicating clearly with different groups of people. I now bring those same values to software development.
 
-What sets me apart is my ability to bridge the gap between complex technical systems and user-friendly experiences. Whether I'm optimizing SQL databases for Navy radar systems or integrating Apple Intelligence into a flashcard app, I focus on building software that solves real problems for real people.
+Throughout this program and my time in the military, I became more confident in learning new skills quickly. I approach problems with curiosity and a leadership attitude. My work in software development, data analysis, and technical writing is shown clearly in the artifacts in my ePortfolio. These skills, along with my military discipline and experience, make me a strong candidate for a software engineering role. I focus on writing code that not only works for computers, but is also clear and easy for people to understand and build on.
 
-## What Drives My Work
+<img width="100%" height="175" alt="coding" src="https://img.freepik.com/premium-vector/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming-software-development-program-coding_198278-4192.jpg" />
 
-I believe great software comes from understanding both the technology and the people who use it. In my DoD work, I've seen how well-designed systems can support critical decision-making under pressure. In my iOS apps, I apply that same rigor to creating tools that help people communicate better, learn more effectively, and advance their careers.
+<h4>Outcomes addressed</h4>
+<ul>
+  <li>Software design and engineering — refactored controller logic and error handling.</li>
+  <li>Algorithms and data structures — added sorting/searching for item lists.</li>
+  <li>Databases — input validation, indexing, and stable CRUD flows.</li>
+  <li>Security mindset — explicit input validation and clear failure modes.</li>
+  <li>Professional communication — narrative + code review video walkthrough.</li>
+</ul>
 
-Security and privacy are core to everything I build. My defense work has ingrained a "security-first" mindset that extends to my iOS development. All three of my apps prioritize on-device processing with Apple Intelligence, ensuring user data never leaves their phone unless they explicitly choose to use third-party AI providers.
 
-I'm driven by continuous learning and technical challenges. The iOS ecosystem is constantly evolving, and I thrive on mastering new frameworks, APIs, and architectural patterns. From implementing spaced repetition algorithms to integrating multi-provider AI systems, I'm always pushing myself to build more sophisticated, more capable applications.
+Each course in the Computer Science program has played an important role in helping me gain the knowledge, skills, and abilities needed to pursue a career in this field. While I have learned a great deal outside of the classroom, certain courses had a greater impact and helped shape the direction I originally set out to follow when I joined the program. These courses helped me discover strengths I didn’t realize I had and gave me the chance to grow in areas I had not explored before. Because of that, I selected artifacts that clearly demonstrate and highlight the skills I gained from these experiences.
 
-## My Background
+In CS250 Software Development Lifecycle, I learned how important the development process is and how strong communication with team members and clients supports a project’s success. IT145 Foundation in Application Development and CS260 Data Structures and Algorithms taught me valuable lessons about algorithms and data structures. These courses helped me strengthen my ability to design and evaluate solutions to real-world problems using proper computer science methods and design trade-offs. CS310 Collaboration and Team Project helped me understand the value of teamwork and showed how essential collaboration is for completing large-scale projects.
 
-My journey into software engineering began in the U.S. Army, where I supported large-scale military operations and developed tracking systems used across multiple TRADOC locations. I worked with international forces during NATO training exercises in Europe, which taught me how to communicate effectively across different teams and cultures.
+<img width="100%" height="175" src="https://github.com/Jbryson88/ePortfolio/blob/main/assets/img/CS350-Task-Scheduler-Diagram.png?raw=true"/>
+<h6>Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</h6>
 
-After transitioning to civilian work, I earned my B.S. in Computer Science while working full-time as a defense contractor. I've contributed to systems used in active Army operations (AFATDS artillery system), built applications supporting U.S. Navy radar stations, and currently lead development on U.S. Army PAMWeb technologies supporting 100+ end users.
+CS360 Mobile Architecture and Programming and CS330 Computational Graphics and Visualization helped me understand the complexity of software design and computer graphics. In both courses, I showed that I could apply strong and creative techniques, tools, and skills to build computing solutions that add value and meet goals in the industry. CS340 Client and Server Development and DAT220 Fundamentals of Data Mining taught me how to create and use databases and showed how helpful data can be when solving problems. These courses also helped me learn how to create team environments where different people can work together and support decision-making in computer science.
 
-Outside of my defense work, I've built and launched three iOS applications that showcase my skills in AI integration, SwiftUI development, and product design. These apps represent my passion for creating tools that genuinely improve people's lives, whether through better writing, smarter studying, or more effective interview preparation.
+The course artifacts I chose for the code reviews and the main categories of software design and engineering, algorithms and data structures, and databases come from three different projects. Each one gave me a chance to use what I learned in class. I believe the changes I made to these projects show my growth and prove my skills in the computer science program.
 
-</div>
+<img width="100%" height="175" src="https://www.mch.org/wp-content/uploads/2021/12/Sunshine-Fall-21_PrepFuture_Main-Feat_1800x480_v2.jpg" />
 
----
+The Computer Science program has helped me grow as a professional and has prepared me to build a meaningful and successful career. I am now ready to make valuable contributions to the field of computer science. Like a climber reaching the top of a mountain, I feel a renewed sense of motivation and focus. I have created an ePortfolio that reflects my place among computer science professionals, and I am proud of this achievement.
+
+My ePortfolio shows that I can use solid and creative techniques. I built computer solutions that provide real value and meet specific goals in the industry. One example of this is my project where I worked with CSV data files, importing them into MongoDB, using the PyMongo driver, Python libraries, the Dash framework, and a CRUD module. These tools allowed me to manage the data and build useful web-based features.
+
+I also designed and improved solutions that solve problems using algorithmic thinking and strong computer science practices. I made careful design choices by working with classes, methods, arguments, and variables in Java. Each artifact I enhanced shows my focus on security. I worked to spot possible weaknesses, reduce design flaws, and protect private data and resources.
+
+I am excited to take on new challenges that help me grow. I stay committed to completing my work, even when it is difficult. I believe in asking for help when needed, and I see it as a way to learn from more experienced coworkers and mentors. I want to be part of a team that works together to build creative and useful solutions. I bring strong organization skills, a love of learning, and a positive attitude. I am ready to explore new technologies and build the skills needed to succeed. I am motivated to keep pushing forward and to do my best in every opportunity.
 
 <img width="100%" height="175" src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/09/01_Banner-2.png"/>
+<div id = "artifactOne">
+<h1 id = "artifactOne">Artifact One - Travlr Application - Full Stack</h1><h2><a href="#top">Back to top</a></h2>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development">CS465 Enhancement</a></h3>
 
-<div id="experience">
+<section id="code-review">
+  <h2>Code Review Video</h2>
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;">
+    <iframe
+      src="https://www.youtube.com/embed/vqiubqdfFng?rel=0"
+      title="Code Review: CS499 Capstone"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+  <p style="margin-top:8px;">
+    Can’t see the embed? <a href="https://youtu.be/vqiubqdfFng" target="_blank" rel="noopener">Watch on YouTube</a>.
+  </p>
+</section>
 
-## Professional Experience
 
-My professional experience spans four years of defense contracting work, where I've built and maintained mission-critical systems for the U.S. Army and Navy. This work has given me deep expertise in secure software development, database optimization, and delivering reliable systems under strict compliance requirements.
 
-### Web Developer | DecisionPointCorp
-**2025 – Present**
+The artifact I chose for this milestone is my Travlr App. This is a web application that helps users plan and organize trips. It lets users create an account, log in, save trip details, add destinations, and see an itinerary. I originally created this app in my Web Application Development course.
+Why I Selected This Artifact
+I selected the Travlr App because it shows many important skills in software design and engineering. It has a full stack architecture with a front end, back end, and a database, which demonstrates my ability to design and build a complete application. Some parts of the app that showcase my skills include the registration and login system with password hashing, the CRUD operations for trips and destinations, and the clean and responsive user interface.
+For this milestone, I completed a set of enhancements to improve the app’s quality. I improved the backend by fixing response logic and adding better input validation to the trips.js controller. I improved error handling and replaced unclear errors with specific, helpful messages. On the frontend, I added a responsive navigation bar, breadcrumbs to show users where they are in the site, and better input validation on the contact form. I also updated the CSS to include media queries for better mobile and tablet responsiveness.
 
-I lead development and maintenance of web-based interfaces for U.S. Army PAMWeb technologies, supporting over 100 end users across multiple installations. This role requires balancing rapid feature development with rigorous security standards and system reliability.
+These enhancements helped me meet some of the program’s outcomes, like using solid software engineering practices and tools, and improving security in my design by validating user input. My outcome coverage plan has not changed because my enhancements stayed focused on making the app more secure, maintainable, and user-friendly.
+Reflection on the Process
+Working on these enhancements taught me a lot about why clean and secure code matters. I learned how moving business logic into cleaner, more maintainable code and adding good validation make the app more reliable. I also learned how responsive design and user-friendly error messages improve usability. A challenge I faced was making sure my backend changes didn’t break existing functionality and testing my CSS changes on different screen sizes. Overall, I am proud of the improvements I made and feel more confident in my ability to deliver professional-quality software.
 
-**Key Accomplishments:**
-- Spearheaded migration of ISSO and PAMWeb applications into new database profiles, ensuring zero downtime during transition and maintaining secure data access across all mission-critical systems
-- Implemented responsive UI designs with full cross-browser compatibility, reducing usability issues by 30% and improving user satisfaction scores
-- Created comprehensive technical documentation and delivered user training sessions, cutting onboarding time for new users by 40%
-- Maintained compliance with DoD security standards while delivering continuous improvements to system performance and user experience
+<h2>What I did:</h2>
 
-**Technologies:** JavaScript, TypeScript, React, SQL, Azure, Jira
 
-### Software Engineer | VSolvit LLC
-**2023 – 2025 | Active Secret Clearance**
+<ol>
+  <li>
+    <strong>Backend: Improved Input Validation and Error Handling</strong>
+    <ul>
+      <li>Added validation to the trips.js controller for tripCode parameter to ensure it is provided and valid.</li>
+      <li>Fixed the response logic to correctly return 200 if a trip is found, or 404 with a clear message if not.</li>
+      <li>Added proper server error handling (500) with helpful error output.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Navigation and Usability</strong>
+    <ul>
+      <li>Added a responsive navigation bar to the top of each page (index.html, about.html, contact.html), with links to all main sections of the site.</li>
+      <li>Added breadcrumbs below the navbar on each page to show the user’s current location.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Input Validation</strong>
+    <ul>
+      <li>Added required attributes to form inputs and textareas in contact.html to prevent submitting empty forms and improve user experience.</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Frontend: Responsive Design</strong>
+    <ul>
+      <li>Added media queries to styles.css to make the site look better on tablets and mobile screens.</li>
+      <li>Adjusted layout so navbar stacks vertically on small screens and buttons and text resize appropriately.</li>
+    </ul>
+  </li>
+</ol>
 
-I developed mission-critical applications for the U.S. Navy, including cost-point analysis tools and radar station systems that directly support operational decision-making. This role required working within strict security protocols while delivering high-performance, reliable software.
 
-**Key Accomplishments:**
-- Built and deployed cost-point analysis and radar station applications used in active Navy operations, ensuring system reliability and data accuracy for mission-critical decisions
-- Optimized complex SQL database queries, improving data retrieval performance by 45% while maintaining data integrity across interconnected systems
-- Led 2-week Agile sprint cycles for a team of 5+ engineers, consistently delivering UI/UX improvements on schedule and within scope
-- Ensured full compliance with DoDM 5200.01 high-ISO security standards across all deliverables, passing all security audits without remediation
+<img width="100%" height="450" src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png?raw=true"/>
 
-**Technologies:** Python, C++, SQL, Angular, Bitbucket, Agile/Scrum
-
-**Security Clearance:** Active Secret (renewed October 2023)
-
-### Software Engineer | Leidos
-**2022**
-
-I contributed to the frontend and backend development of the AFATDS (Advanced Field Artillery Tactical Data System) used in active Army operations. This system requires absolute reliability, as it supports real-time artillery coordination in the field.
-
-**Key Accomplishments:**
-- Resolved 20+ bugs and feature requests per sprint while maintaining codebase quality across a large-scale, complex system with millions of lines of code
-- Implemented secure database linkages between artillery systems and authorization nodes, meeting stringent performance requirements while maintaining security protocols
-- Configured, tested, and deployed mission-critical software for Army field use, ensuring system stability under operational conditions
-- Collaborated with cross-functional teams including systems engineers, QA specialists, and military end users to deliver high-quality software releases
-
-**Technologies:** C++, SQL, REST APIs, Git, CI/CD
-
-### U.S. Army Experience
-
-My military service laid the foundation for my software engineering career. I supported large military operations managing critical data for over 250 soldiers at a time. I developed and improved tracking systems using Excel and Python that are now used by U.S. Army TRADOC across multiple locations.
-
-Working with international forces during NATO training exercises in Europe taught me how to communicate effectively across different cultures and organizations. The Army instilled in me the discipline, attention to detail, and leadership skills that continue to define my approach to software development.
-
+<div>
+<H1 >Add Trip</H1>
+<img width="75%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Add%20Trip.png"/>
 </div>
 
----
+I created a form that allowed me to add a new trip to the system. I filled out fields like the trip code, name, number of days, start date, resort name, cost per person, image file name, and a short description. After entering the details, I clicked the "Save" button, which triggered the logic to store the new trip information into the backend database.
 
-<img width="100%" height="175" alt="ios development" src="https://www.mch.org/wp-content/uploads/2021/12/Sunshine-Fall-21_PrepFuture_Main-Feat_1800x480_v2.jpg" />
-
-<div id="ios-apps">
-
-## iOS Application Development
-
-Beyond my defense contracting work, I've built and launched three iOS applications that showcase my skills in AI integration, SwiftUI development, and product design. These apps represent my passion for creating tools that solve real problems for real people.
-
-All three applications demonstrate:
-- **Advanced AI Integration** - On-device processing with Apple Intelligence, plus multi-provider support for Claude and ChatGPT APIs
-- **Privacy-First Architecture** - User data stays on-device by default; third-party AI usage is optional and user-controlled
-- **Production-Quality Code** - Professional SwiftUI implementation with clean architecture, proper error handling, and comprehensive testing
-- **Real Monetization** - Freemium business models with in-app purchases and subscription management
-- **Universal Design** - Native support for iPhone and iPad with responsive layouts and platform-specific optimizations
-
-### Technical Expertise Demonstrated
-
-**AI & Machine Learning:**
-- Apple Intelligence integration using FoundationModels framework
-- Multi-provider AI architecture supporting Claude (Anthropic) and ChatGPT (OpenAI) APIs
-- Dynamic model selection and fallback handling
-- Custom prompt engineering for specialized use cases
-
-**iOS Platform Technologies:**
-- SwiftUI for modern, declarative UI development
-- Speech Recognition and Speech Synthesis frameworks
-- StoreKit 2 for subscription and in-app purchase management
-- SwiftData for local persistence
-- Google AdMob integration for advertising
-
-**Professional Development Practices:**
-- Git version control with feature branching
-- App Store submission and metadata optimization
-- Privacy policy creation and compliance
-- Beta testing and user feedback integration
-- Performance optimization and crash analytics
-
+<div>
+<h1>Trip added to UI in SPA</h1>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Trip%20UI%20in%20SPA.png"/>
 </div>
 
----
+Once the trip was added, it appeared on the main user interface of the single-page application. I built this part of the UI to dynamically display all trips stored in the database. Each trip is shown in a card format with its name, description, duration, and price. This confirmed that the trip I just added was correctly saved and rendered through the application.
 
-<div id="writecoach">
+<div>
+<h1>Editing the trip</h1>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Edit%20Trip.png"/>
+</div>
 
-## WriteCoach - AI Writing Assistant
+Next, I clicked the "Edit Trip" button on one of the displayed trip cards. This opened a pre-filled form where I could update the trip’s details. I changed values such as the trip name, resort name, number of days, image, and description. This form allowed me to modify existing trip data easily.
 
-**Your personal writing coach powered by artificial intelligence**
+<div>
+<h1>Trip updated in both database and displayed in UI</h1>
+<img width="85%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Updated%20Trip.png"/>
+</div>
 
-WriteCoach is an AI-powered writing assistant that helps users communicate with confidence. Whether drafting emails, writing cover letters, or crafting important messages, WriteCoach provides instant, polished rewrites tailored to any situation.
+After making edits, I clicked the "Save" button, and the updated information was saved to the backend. The changes were immediately reflected on the UI, confirming that my update logic worked correctly. I verified that the revised trip details replaced the old ones without needing a page reload.
 
-### The Problem
+<h1>What I learned</h1>
+Working on the Travlr application in CS 465 Web Application Development gave me real experience in planning, designing, and building a complete web-based software project. This assignment helped me grow the skills I need as a software engineer, such as both front-end and back-end development, organizing code, and using version control tools like Git. I learned how to create a multi-page application, design user-friendly interfaces using HTML, CSS, and JavaScript, and connect those pages to dynamic content through server-side logic.
 
-Professional communication is critical, but finding the right tone and wording can be challenging. Users often struggle with:
-- Choosing the appropriate tone for different audiences (professional vs. casual, confident vs. empathetic)
-- Writing persuasive cover letters that stand out
-- Crafting effective email subject lines that get opened
-- Knowing how to respond professionally to difficult messages
+The project also helped me understand the importance of writing clean code and creating responsive layouts that work well on different devices. I practiced using wireframes, building forms, managing user data, and designing page flows that made sense for the user. Most importantly, this project taught me how to think through problems like a software engineer by breaking tasks into smaller steps, testing regularly, and focusing on how users interact with the system. This hands-on experience gave me more confidence in my ability to contribute to real software teams and projects.
+</div>
 
-### The Solution
+<div id="artifactTwo">
+<h1 id="artifactTwo">Artifact 2 - Inventory App - Android Mobile Application</h1><h2><a href="#top">Back to top</a></h2>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS360-softwaredesign">CS360 Enhancement</a></h3>
 
-WriteCoach provides AI-powered writing tools that adapt to any communication need:
+<h2>Overview</h2>
+<p>
+In this, I had to pretend I am part of the Mobile2App team, and we were hired to help develop a mobile application called the Inventory App. This app is designed to track items in a warehouse. The project goes through several steps — planning, designing, and developing — and will be ready to launch in the coming weeks.
+</p>
 
-**Core Rewriting Engine:**
-- Instant text transformation with 6 distinct tone options: Professional, Casual, Confident, Empathetic, Persuasive, and Concise
-- Adjustable length control (shorter, similar, longer) to match message requirements
-- Voice dictation support for hands-free text input
-- Real-time processing with on-device Apple Intelligence
+<p>
+Our team took time to understand the goals of the app and the needs of the users so we could build the right solution. We meet every week to review client requests, discuss progress, and assign tasks. Throughout the process, we apply good mobile app development principles and best practices.
+</p>
 
-**Professional Tools:**
-- **Cover Letter Builder** - Generate tailored cover letters from job descriptions and your experience
-- **Reply Drafter** - Get multiple reply options for any message you've received
-- **Subject Line Generator** - Create attention-grabbing email subject lines
+<p>
+The Goal: The Inventory App helps track inventory items through mobile devices. For example, warehouse workers can use the app to manage and automate logistics, which helps the business grow and expand. The app gives users real-time inventory information that can be accessed from anywhere on an Android device.
+</p>
 
-**Privacy & AI Integration:**
-- Default on-device processing using Apple Intelligence (no data leaves the phone)
-- Optional third-party AI support (Claude and ChatGPT) via user-provided API keys
-- Complete transparency about which AI provider is handling each request
+<p>
+To meet these goals, the app was requested to include these features:
+</p>
+<ul>
+  <li>A database with at least two tables: one for inventory items and one for user logins and passwords.</li>
+  <li>A sign-in or sign-up screen.</li>
+  <li>A screen that displays all inventory items in a grid.</li>
+  <li>A way for users to add and remove items from the inventory.</li>
+  <li>A way for users to increase or decrease the quantity of specific items.</li>
+  <li>A notification that alerts users when an item’s quantity reaches zero.</li>
+</ul>
 
-### Technical Implementation
+<p>
+This project shows my ability to design software by understanding user needs and turning those needs into an organized program. It is important to connect the user interface design and layout with the programming part of the app.
+</p>
 
-**Architecture:**
-- SwiftUI for native iOS UI with full dark mode support
-- Multi-provider AI system with intelligent fallback handling
-- Speech Recognition framework for voice input
-- Google AdMob integration for freemium monetization
+<p>
+As a developer, I start by planning and thinking about the purpose of the app and who will use it. Every group of users is different, so it is important to focus on what they need the most and build those features first. It also helps to look at similar apps to see how they solve similar problems, especially in how they design the user experience. Searching the app store or online for similar apps is a very important step.
+</p>
 
-**Key Technical Challenges Solved:**
-- Seamless switching between on-device and cloud AI providers
-- Real-time voice transcription with accuracy optimization
-- Subscription state management with StoreKit 2
-- Network error handling and offline graceful degradation
+<p>
+There is a lot of information about how to design a good mobile app, and understanding that process is key to making an app that users will like. It is not realistic to think you can make a great app completely on your own. That’s why it is important to work as a team and help each other, from the first planning step to the final launch. Building a strong, collaborative team is essential to follow good practices, improve the design and code, and find new ways to make the app better and meet challenges.
+</p>
 
-### Business Model
+<p>
+Reflection: This project shows my ability to use solid and creative techniques, skills, and tools in computing to create solutions that deliver real value based on industry needs. The project covered the full process of designing and engineering software, including making sure the app was easy to use and understanding how users would interact with the different screens and actions. I also used standard icons and symbols and designed a database that allows users to create, read, update, and delete inventory data.
+</p>
 
-**Free Tier:**
-- 5 rewrites per day
-- All tone options available
-- Voice dictation included
-- Rewarded ads for bonus rewrites
-
-**WriteCoach Pro** ($9.99/month or $59.99/year):
-- Unlimited rewrites
-- All professional tools (cover letters, reply drafting, subject lines)
-- Ad-free experience
-- Priority AI processing
-
-### Impact
-
-WriteCoach empowers users to communicate professionally in any situation. From job seekers crafting compelling cover letters to professionals responding to difficult emails, the app provides the confidence and tools needed to write effectively.
-
-**App Store:** [Launch pending]  
-**Technologies:** SwiftUI, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Google AdMob, StoreKit 2
-
-### Screenshots
+<p>
+I designed and tested solutions to problems by using good algorithms and following computer science standards. I balanced different design choices while thinking about how the algorithms, data structures, classes, methods, and layouts all work together. I also developed a strong security mindset by thinking about possible weaknesses, reducing risks, and protecting data and privacy. I improved security by checking input data and designing with a focus on safety and default protections.
+</p>
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/welcome-ipad.png" alt="WriteCoach Welcome Screen" style="max-width:100%; height:auto;">
-      <div><strong>Welcome Screen</strong><br>Clean onboarding experience</div>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/RegisterActivity.png?raw=true" alt="Registration Screen" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure A:</strong> Registration screen for creating a new account.</div>
     </td>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/rewrite-ipad.png" alt="WriteCoach Rewrite Interface" style="max-width:100%; height:auto;">
-      <div><strong>Rewrite Interface</strong><br>Six tone options with length control</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/tools-ipad.png" alt="WriteCoach Tools" style="max-width:100%; height:auto;">
-      <div><strong>Professional Tools</strong><br>Cover letters, replies, subject lines</div>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/LoginActivity.png?raw=true" alt="Login Screen" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure B:</strong> Login screen with register/forgot options.</div>
     </td>
   </tr>
   <tr>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/settings-ipad.png" alt="WriteCoach Settings" style="max-width:100%; height:auto;">
-      <div><strong>Settings & Subscription</strong><br>Multi-provider AI configuration</div>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AppInfo.png?raw=true" alt="App Info" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure A:</strong> Android app settings page.</div>
     </td>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/welcome-iphone.png" alt="WriteCoach iPhone Welcome" style="max-width:100%; height:auto;">
-      <div><strong>iPhone Interface</strong><br>Fully responsive design</div>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/AddItemActivity.png?raw=true" alt="Add Item" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure B:</strong> Add new inventory item screen.</div>
     </td>
-    <td align="center" width="33%">
-      <img src="./images/writecoach/subscription-iphone.png" alt="WriteCoach Subscription" style="max-width:100%; height:auto;">
-      <div><strong>Subscription Options</strong><br>Monthly and annual plans</div>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/ForgotPass_AlertDialog.png?raw=true" alt="Forgot Password" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure A:</strong> Password reset dialog.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EmptyItemsActivity.png?raw=true" alt="Empty Inventory" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure B:</strong> Blank inventory with Add button and SMS toggle.</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/EditItem_AlertDialog.png?raw=true" alt="Edit Item" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure A:</strong> Edit inventory item dialog.</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS360-softwaredesign/screenshots/SMS_AlertDialog.png?raw=true" alt="SMS Permissions" style="max-width:100%; height:auto; padding:10px">
+      <div><strong>Figure B:</strong> SMS permissions dialog.</div>
     </td>
   </tr>
 </table>
 
+<div id = "artifactThree">
+<h1 id = "artifactThree">Artifact Three - Salvare Search (Web Rescue Application)</h1><h2><a href="#top">Back to top</a></h2>
+<h3><a href="https://github.com/Jbryson88/ePortfolio/tree/main/enhancement/CS340%20-%20Client%3AServer%20Development">CS340 Enhancement</a></h3>
+
+<h1>Artifact Overview</h1>
+      
+The artifact I selected for the databases category is the Salvare Search for Rescue Web App. I created this project during the CS340 Client/Server Development course. It is a web application built in Python using the Dash framework and the MongoDB database. The app helps animal shelters organize and search through their dog records to identify good candidates for rescue training. The database uses a CSV file of shelter dogs that gets imported into MongoDB. The application can be run in Jupyter Notebook or the computer terminal using a browser.
+
+<h1>Why This Artifact Was Chosen</h1>
+I chose this artifact for my ePortfolio because it shows strong database and web development skills. It uses a real-world data structure, connects to a non-relational database, and follows the Model View Controller (MVC) design pattern. The MVC pattern helps separate the different parts of the app. The model handles the data using MongoDB and Python. The view uses Dash to show the user what they see on the screen. The controller uses PyMongo to update and pull data from the database.
+
+This artifact also includes RESTful API practices, which are very common in professional software development. I improved the code by recreating the project in a Windows environment. Originally, it was built using Apporto, which is a Linux platform. I followed the original documentation to rebuild the project and updated it with new steps for using Windows. I also had to update parts of the code to work with newer versions of PyMongo and MongoDB.
+
+<h1>Meeting Course Outcomes</h1>
+Yes, I met the course outcomes I planned for this enhancement. My goal was to improve my skills in using databases, following secure coding practices, and documenting my work clearly. I now better understand how to set up a database connection, validate user input, and use version changes in database tools. I also learned to organize and format my code to make it easier to read and maintain. I do not have any changes to my outcome plans right now.
+
+
+<h1>Reflection on Enhancing the Artifact</h1>
+Improving this project taught me a lot about working in different operating systems. Since the original app was built in a remote Linux lab, I had to set up Python, Dash, and MongoDB from scratch on my personal Windows machine. It was hard to match everything exactly, especially since newer software versions required changes to the original code. I had to modify the Create method in the CRUD module to match PyMongo version 4.0.
+
+This process improved my ability to solve technical problems on my own. I also learned how to write clear instructions and update project documentation so others can follow it. I used Python best practices, like in-line comments, clean formatting, and proper naming for functions and variables. I also worked hard to make sure every part of the app followed security-minded programming, like checking inputs and controlling access to the database.
+
+Overall, this project shows how I can build a working database application, improve it to work in new environments, and document everything clearly for future use. It fits well in my ePortfolio and proves my growth in using databases in real-world applications.
+
+ 
+<div style="padding-top: 15px; text-align: center;">
+<img src="https://github.com/Jbryson88/ePortfolio/blob/main/enhancement/CS340%20-%20Client:Server%20Development/SalvareDashboard.png?raw=true"/>
+<h4>Here is a view of the live dashboard created for the Salvare Search for Rescue Web App.</h4>
 </div>
 
----
+<h1>Final Thoughts</h1>
 
-<div id="neurodecks">
+My journey through the Computer Science program at SNHU has been a defining chapter in my life. It sharpened my technical expertise, strengthened my problem-solving mindset, and fueled my passion for creating meaningful solutions.
 
-## Neurodecks - AI Flashcard Study App
+Now, as a software engineer, I apply these skills every day as I build, innovate, and adapt in a field that never stops evolving. This program did not just prepare me for a job; it prepared me for a lifetime of growth in technology.
 
-**Study smarter with AI-generated flashcards and spaced repetition**
-
-Neurodecks is a flashcard study app that combines AI-powered content generation with scientifically-proven spaced repetition algorithms. It helps students and professionals learn more effectively by automating flashcard creation and optimizing review timing.
-
-### The Problem
-
-Effective studying requires two things: good study materials and consistent review. But creating quality flashcards is time-consuming, and knowing when to review each card for optimal retention is complex. Most flashcard apps make users do all the work themselves.
-
-### The Solution
-
-Neurodecks automates the hardest parts of studying:
-
-**AI Flashcard Generation:**
-- Type any topic and instantly generate complete flashcard sets
-- Uses Apple Intelligence for on-device generation (privacy-first)
-- Premium users can access Claude and ChatGPT for additional generation options
-- Customizable generation parameters (number of cards, difficulty level)
-
-**Spaced Repetition System:**
-- Scientifically-optimized review scheduling based on forgetting curves
-- Cards you know well appear less often; struggling cards come back sooner
-- Tracks performance per card to adjust difficulty ratings
-- Visual progress tracking showing mastery over time
-
-**Flexible Study Tools:**
-- Manual flashcard creation with text or voice input
-- Optional hints for difficult questions
-- Color-coded deck organization
-- Study streak tracking to maintain motivation
-- Timed quiz mode for exam preparation
-
-### Technical Implementation
-
-**Architecture:**
-- SwiftUI with MVVM architecture
-- SwiftData for local persistence and Core Data migration
-- Custom spaced repetition algorithm based on SM-2 (SuperMemo 2)
-- Multi-provider AI integration (Apple Intelligence, Claude, ChatGPT)
-
-**Key Technical Challenges Solved:**
-- Implementing a production-quality spaced repetition algorithm with proper interval calculation
-- Real-time study statistics and progress tracking
-- Efficient deck/card relationship management with SwiftData
-- Voice input integration for hands-free card creation
-- Offline-first architecture with cloud AI as optional enhancement
-
-**Spaced Repetition Algorithm:**
-The app implements a modified SM-2 algorithm that schedules card reviews based on:
-- Initial learning phase (1 day, 3 days, 1 week intervals)
-- Performance-based difficulty adjustments
-- Optimal spacing for long-term retention
-- Forgetting curve compensation
-
-### Business Model
-
-**Free Tier:**
-- Unlimited manual flashcard creation
-- Basic spaced repetition (on-device AI only)
-- Limited AI generation (3 decks)
-- Ads between study sessions
-
-**Neurodecks Premium** ($1.99/month or $19.99/year):
-- Unlimited AI flashcard generation
-- Access to all AI providers (Apple Intelligence, Claude, ChatGPT)
-- Unlimited decks
-- Ad-free studying
-
-### Impact
-
-Neurodecks transforms studying from a time-consuming chore into an efficient, automated process. Students can generate comprehensive study materials in seconds and trust the app to schedule reviews at scientifically optimal intervals for maximum retention.
-
-**App Store:** [Launch pending]  
-**Technologies:** SwiftUI, SwiftData, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Google AdMob, StoreKit 2
-
-### Screenshots
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/home-ipad.png" alt="Neurodecks Home" style="max-width:100%; height:auto;">
-      <div><strong>Home Dashboard</strong><br>Study streak and quick actions</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/deck-creation-ipad.png" alt="Deck Creation" style="max-width:100%; height:auto;">
-      <div><strong>Deck Creation</strong><br>Color-coded organization</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/card-creation-ipad.png" alt="Card Creation" style="max-width:100%; height:auto;">
-      <div><strong>Card Creation</strong><br>Manual or AI generation</div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/settings-ipad.png" alt="Settings" style="max-width:100%; height:auto;">
-      <div><strong>AI Provider Settings</strong><br>Apple Intelligence, Claude, ChatGPT</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/subscription-ipad.png" alt="Premium Subscription" style="max-width:100%; height:auto;">
-      <div><strong>Premium Features</strong><br>Unlimited AI generation</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/neurodecks/home-iphone.png" alt="iPhone Home" style="max-width:100%; height:auto;">
-      <div><strong>iPhone Interface</strong><br>Universal app design</div>
-    </td>
-  </tr>
-</table>
-
+The lessons I have learned here will guide me long after graduation, reminding me that curiosity is the spark of innovation and persistence is the key to success. This is not the end of my journey. It is the foundation for everything still to come.
+<h2><a href="#top">Back to top</a></h2>
 </div>
-
----
-
-<div id="prepai">
-
-## PrepAI - AI Interview Coach
-
-**Your AI-powered interview coach. Practice anytime, anywhere, and land your dream job.**
-
-PrepAI is an AI-powered interview preparation app that provides realistic mock interviews with voice-based interaction. It helps job seekers practice across multiple interview formats (behavioral, technical, case study, situational) and tracks their improvement over time.
-
-### The Problem
-
-Preparing for job interviews is stressful and often ineffective. Mock interviews with friends lack realism and expertise. Professional interview coaches are expensive. Practicing alone with written questions doesn't simulate the pressure of real-time verbal responses.
-
-### The Solution
-
-PrepAI provides AI-powered interview practice that feels realistic:
-
-**Voice-Based Mock Interviews:**
-- Realistic conversation flow with AI interviewers
-- Speech recognition captures your answers in real-time
-- Natural follow-up questions based on your responses
-- Multiple interview formats: Behavioral (STAR method), Technical, Case Study, Situational
-
-**Career Field Customization:**
-- Specialized question sets for 10+ industries: Technology, Finance, Healthcare, Consulting, Engineering, Marketing, Law, Education, Design, General
-- Industry-specific terminology and scenarios
-- Role-appropriate difficulty levels
-
-**Smart Study Tools:**
-- AI-generated flashcard decks for common interview questions
-- Spaced repetition review of STAR method examples
-- Timed quiz mode to practice under pressure
-- Quick practice mode for rapid warm-up
-
-**Progress Tracking:**
-- Session scoring and performance analytics
-- Track improvement over time with detailed statistics
-- Identify weak areas needing more practice
-- Study streak monitoring for consistent preparation
-
-### Technical Implementation
-
-**Architecture:**
-- SwiftUI with tab-based navigation
-- Speech Recognition and Speech Synthesis for conversational interviews
-- SwiftData for session history and progress tracking
-- Multi-provider AI (Apple Intelligence, Claude, ChatGPT)
-
-**Key Technical Challenges Solved:**
-- Real-time speech recognition with low latency
-- Natural conversation flow with context-aware AI responses
-- Performance scoring algorithm based on answer quality, relevance, and completeness
-- Session state management across interruptions (phone calls, app switching)
-- Voice synthesis with appropriate pacing and natural intonation
-
-**Interview Scoring System:**
-The app evaluates answers based on:
-- Completeness (did you answer all parts of the question?)
-- Structure (STAR method for behavioral questions, logical flow for technical)
-- Relevance (on-topic responses)
-- Depth (specific examples vs. generic statements)
-
-### Business Model
-
-**Free Tier:**
-- 3 mock interviews per day
-- Basic behavioral and general interview modes
-- Limited flashcard generation
-- Ads between sessions
-
-**PrepAI Pro** ($4.99/month or $29.99/year):
-- Unlimited mock interviews with voice mode
-- All interview types (Behavioral, Technical, Case Study, Situational)
-- Access to Claude and ChatGPT AI providers
-- Unlimited quizzes and flashcard generation
-- Ad-free experience
-
-### Impact
-
-PrepAI democratizes access to high-quality interview coaching. Whether you're a new graduate preparing for your first job or an experienced professional switching careers, PrepAI provides realistic practice and actionable feedback to help you perform your best when it matters most.
-
-**App Store:** [Launch pending]  
-**Technologies:** SwiftUI, SwiftData, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Speech Synthesis, Google AdMob, StoreKit 2
-
-### Screenshots
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./images/prepai/welcome-ipad.png" alt="PrepAI Welcome" style="max-width:100%; height:auto;">
-      <div><strong>Welcome Screen</strong><br>AI-powered interview coaching</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/focus-area-ipad.png" alt="Focus Area Selection" style="max-width:100%; height:auto;">
-      <div><strong>Focus Area</strong><br>10+ career fields</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/home-ipad.png" alt="Home Dashboard" style="max-width:100%; height:auto;">
-      <div><strong>Home Dashboard</strong><br>Progress tracking</div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./images/prepai/practice-ipad.png" alt="Interview Types" style="max-width:100%; height:auto;">
-      <div><strong>Interview Types</strong><br>Behavioral, Technical, Case Study</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/study-ipad.png" alt="Study Mode" style="max-width:100%; height:auto;">
-      <div><strong>Study Mode</strong><br>Flashcards with spaced repetition</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/settings-ipad.png" alt="Settings" style="max-width:100%; height:auto;">
-      <div><strong>Settings</strong><br>AI provider configuration</div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./images/prepai/subscription-ipad.png" alt="Subscription" style="max-width:100%; height:auto;">
-      <div><strong>Premium Subscription</strong><br>Unlimited interviews</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/home-iphone.png" alt="iPhone Home" style="max-width:100%; height:auto;">
-      <div><strong>iPhone Interface</strong><br>Voice-based interviews</div>
-    </td>
-    <td align="center" width="33%">
-      <img src="./images/prepai/practice-iphone.png" alt="iPhone Practice" style="max-width:100%; height:auto;">
-      <div><strong>Interview Practice</strong><br>Responsive mobile design</div>
-    </td>
-  </tr>
-</table>
-
-</div>
-
----
-
-<div id="technical-skills">
-
-## Technical Skills & Expertise
-
-### Languages
-**Production Experience:**
-- **Python** - Defense applications, automation scripts, data processing
-- **C++** - AFATDS artillery system, performance-critical components
-- **Swift** - iOS application development (3 production apps)
-- **JavaScript/TypeScript** - React and Angular web applications
-- **SQL** - Database design, optimization, complex queries
-- **HTML/CSS/SCSS** - Responsive web interfaces
-
-### Frameworks & Technologies
-
-**iOS Development:**
-- SwiftUI (expert-level - 3 production apps)
-- SwiftData & Core Data
-- Speech Recognition & Speech Synthesis
-- StoreKit 2 (in-app purchases & subscriptions)
-- Combine framework
-- XCTest for unit testing
-
-**Web Development:**
-- React & Angular (defense applications)
-- Bootstrap & responsive design
-- REST API design and integration
-- WebSockets for real-time features
-
-**Backend & Databases:**
-- SQL & MySQL (production DoD systems)
-- MongoDB (NoSQL for flexible schemas)
-- Database optimization & query tuning
-- Data modeling & schema design
-
-**AI & Machine Learning:**
-- Apple Intelligence (FoundationModels framework)
-- Claude API integration (Anthropic)
-- ChatGPT API integration (OpenAI)
-- Custom prompt engineering
-- Multi-provider AI architecture
-
-### Tools & Platforms
-
-**Version Control & Collaboration:**
-- Git (expert-level)
-- GitHub & Bitbucket
-- Feature branching workflows
-- Code review processes
-
-**Cloud & DevOps:**
-- Microsoft Azure
-- CI/CD pipelines
-- Automated testing & deployment
-
-**Project Management:**
-- Agile/Scrum methodologies
-- Jira for sprint planning & tracking
-- Technical documentation
-- Team leadership
-
-### Core Competencies
-
-**Software Architecture:**
-- Design patterns (MVVM, MVC, Repository)
-- Clean architecture principles
-- Separation of concerns
-- Dependency injection
-
-**Security:**
-- DoD security standards (DoDM 5200.01)
-- Secure coding practices
-- Data encryption & protection
-- Privacy-first design
-- Active Secret Clearance
-
-**Data Structures & Algorithms:**
-- Algorithm optimization
-- Time/space complexity analysis
-- Custom data structure implementation
-- Performance profiling
-
-**Quality Assurance:**
-- Unit testing & test-driven development
-- Integration testing
-- User acceptance testing
-- Bug tracking & resolution
-
-</div>
-
----
-
-## What Sets Me Apart
-
-My unique combination of defense contracting experience and iOS development gives me a perspective that few developers have. I understand how to build systems that must work flawlessly under pressure, meet strict security requirements, and scale reliably. I also understand how to create consumer experiences that feel natural, respect user privacy, and solve real problems.
-
-I bring military discipline to every project. Code reviews aren't optional. Security isn't an afterthought. Testing isn't something you skip when deadlines are tight. These principles, learned through years of defense work, elevate everything I build.
-
-I'm equally comfortable working alone or leading teams. I've led Agile sprints for defense contractors and shipped three iOS apps independently. I know when to ask for help, when to push back on requirements, and when to put in extra hours to get something done right.
-
-Most importantly, I care about the work. Whether I'm building radar systems for the Navy or a flashcard app for students, I'm invested in creating something that works well and helps people succeed.
-
----
-
-## Contact & Links
-
-**Email:** John.bryson710@gmail.com  
-**Phone:** (719) 374-2074  
-**Location:** Rockland, MA  
-
-**LinkedIn:** [linkedin.com/in/johnbryson](#)  
-**GitHub:** [github.com/jbryson88](#)  
-**Portfolio:** [johnbryson.dev](#)  
-
-**Security Clearance:** Active Secret (renewed October 2023)
-
----
-
-<small>© 2026 John Bryson. All rights reserved.</small>
