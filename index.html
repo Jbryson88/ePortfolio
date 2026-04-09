@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Bryson | Software Engineer & Web / Applications Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ==========================================
+           DESIGN SYSTEM & CSS VARIABLES
+           ========================================== */
+
+        :root {
+            /* Color Palette - Refined Dark Theme */
+            --color-bg-primary: #0a0e14;
+            --color-bg-secondary: #141921;
+            --color-bg-tertiary: #1c2330;
+            --color-accent-primary: #d4af37;
+            --color-accent-secondary: #9b8b5f;
+            --color-text-primary: #e8e6e3;
+            --color-text-secondary: #b8b4ad;
+            --color-text-muted: #6e6b65;
+            --color-border: #2a303d;
+            --color-shadow: rgba(0, 0, 0, 0.4);
+
+            /* Typography */
+            --font-display: 'Syne', sans-serif;
+            --font-body: 'Crimson Pro', serif;
+            --font-mono: 'JetBrains Mono', monospace;
+
+            /* Spacing */
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+
+            /* Animation */
+            --transition-fast: 0.2s ease;
+            --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* ==========================================
+           RESET & BASE STYLES
+           ========================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-bg-primary);
+            color: var(--color-text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        ::selection {
+            background: var(--color-accent-primary);
+            color: var(--color-bg-primary);
+        }
+
+        /* ==========================================
+           TYPOGRAPHY
+           ========================================== */
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: var(--space-lg);
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--color-accent-primary);
+            border-radius: 2px;
+        }
+
+        /* ==========================================
+           NAVIGATION
+           ========================================== */
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 14, 20, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--color-border);
+            z-index: 1000;
+            animation: slideDown 0.6s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--color-accent-primary);
+            text-decoration: none;
+            transition: var(--transition-fast);
+        }
+
+        .nav-logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        .nav-links a {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            position: relative;
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--color-accent-primary);
+            transition: var(--transition-smooth);
+        }
+
+        .nav-links a:hover {
+            color: var(--color-text-primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* ==========================================
+           HERO SECTION
+           ========================================== */
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 8rem 2rem 4rem;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            z-index: 2;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-label {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--color-accent-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: var(--space-md);
+            animation: fadeInUp 0.8s ease 0.2s backwards;
+        }
+
+        .hero-title {
+            font-size: 6rem;
+            font-weight: 800;
+            margin-bottom: var(--space-md);
+            background: linear-gradient(135deg, var(--color-text-primary), var(--color-accent-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 0.8s ease 0.3s backwards;
+        }
+
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-lg);
+            max-width: 700px;
+            animation: fadeInUp 0.8s ease 0.4s backwards;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: var(--space-lg);
+            animation: fadeInUp 0.8s ease 0.5s backwards;
+        }
+
+        .clearance-badge,
+        .location {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+            padding: 0.5rem 1rem;
+            background: var(--color-bg-tertiary);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            animation: fadeInUp 0.8s ease 0.6s backwards;
+        }
+
+        .btn {
+            font-family: var(--font-mono);
+            font-size: 0.95rem;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--color-accent-primary);
+            color: var(--color-bg-primary);
+            border: 2px solid var(--color-accent-primary);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--color-accent-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px var(--color-shadow);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-text-primary);
+            border: 2px solid var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--color-accent-primary);
+            color: var(--color-accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .hero-decoration {
+            position: absolute;
+            top: 20%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1), transparent);
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: 1;
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.5;
+            }
+        }
+
+        /* ==========================================
+           CONTAINER & SECTIONS
+           ========================================== */
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: var(--space-xl) 0;
+        }
+
+        /* ==========================================
+           ABOUT SECTION
+           ========================================== */
+
+        .about {
+            background: var(--color-bg-secondary);
+        }
+
+        .about-content {
+            max-width: 900px;
+        }
+
+        .about-text {
+            font-size: 1.25rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-md);
+            line-height: 1.8;
+        }
+
+        /* ==========================================
+           SKILLS SECTION
+           ========================================== */
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .skill-category {
+            background: var(--color-bg-secondary);
+            padding: var(--space-md);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            transition: var(--transition-smooth);
+        }
+
+        .skill-category:hover {
+            border-color: var(--color-accent-primary);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px var(--color-shadow);
+        }
+
+        .skill-category-title {
+            font-size: 1.2rem;
+            margin-bottom: var(--space-sm);
+            color: var(--color-accent-primary);
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .skill-tag {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            padding: 0.5rem 1rem;
+            background: var(--color-bg-tertiary);
+            color: var(--color-text-secondary);
+            border-radius: 4px;
+            transition: var(--transition-fast);
+        }
+
+        .skill-tag:hover {
+            background: var(--color-accent-primary);
+            color: var(--color-bg-primary);
+        }
+
+        /* ==========================================
+           EXPERIENCE SECTION
+           ========================================== */
+
+        .experience {
+            background: var(--color-bg-secondary);
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 3rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--color-border);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: var(--space-lg);
+            opacity: 0;
+            animation: fadeInLeft 0.6s ease forwards;
+        }
+
+        .timeline-item:nth-child(1) { animation-delay: 0.1s; }
+        .timeline-item:nth-child(2) { animation-delay: 0.2s; }
+        .timeline-item:nth-child(3) { animation-delay: 0.3s; }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .timeline-marker {
+            position: absolute;
+            left: -3.5rem;
+            top: 8px;
+            width: 12px;
+            height: 12px;
+            background: var(--color-accent-primary);
+            border-radius: 50%;
+            border: 3px solid var(--color-bg-secondary);
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: var(--space-xs);
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
+            color: var(--color-text-primary);
+        }
+
+        .timeline-period {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-accent-primary);
+        }
+
+        .timeline-company {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-sm);
+        }
+
+        .timeline-description {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .timeline-description li {
+            color: var(--color-text-secondary);
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .timeline-description li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--color-accent-primary);
+        }
+
+        /* ==========================================
+           PROJECTS SECTION
+           ========================================== */
+
+        .projects-intro {
+            font-size: 1.2rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-xl);
+            max-width: 800px;
+        }
+
+        .project-card {
+            background: var(--color-bg-secondary);
+            border: 1px solid var(--color-border);
+            border-radius: 12px;
+            padding: var(--space-lg);
+            margin-bottom: var(--space-xl);
+            transition: var(--transition-smooth);
+        }
+
+        .project-card:hover {
+            border-color: var(--color-accent-primary);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px var(--color-shadow);
+        }
+
+        .project-header {
+            margin-bottom: var(--space-md);
+        }
+
+        .project-title {
+            font-size: 2.5rem;
+            color: var(--color-accent-primary);
+            margin-bottom: var(--space-xs);
+        }
+
+        .project-subtitle {
+            font-size: 1.3rem;
+            color: var(--color-text-secondary);
+        }
+
+        .project-description {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-md);
+            line-height: 1.8;
+        }
+
+        .project-features {
+            margin-bottom: var(--space-md);
+        }
+
+        .project-features h4 {
+            font-size: 1.1rem;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-sm);
+        }
+
+        .project-features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-features li {
+            color: var(--color-text-secondary);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .tech-tag {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            padding: 0.5rem 1rem;
+            background: var(--color-bg-tertiary);
+            color: var(--color-accent-primary);
+            border: 1px solid var(--color-accent-primary);
+            border-radius: 4px;
+        }
+
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: var(--space-md);
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 1px solid var(--color-border);
+            transition: var(--transition-smooth);
+            cursor: pointer;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 40px var(--color-shadow);
+            border-color: var(--color-accent-primary);
+        }
+
+        /* ==========================================
+           EDUCATION SECTION
+           ========================================== */
+
+        .education {
+            background: var(--color-bg-secondary);
+        }
+
+        .education-item {
+            max-width: 600px;
+        }
+
+        .education-degree {
+            font-size: 1.5rem;
+            margin-bottom: var(--space-xs);
+        }
+
+        .education-school {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+        }
+
+        /* ==========================================
+           CONTACT SECTION
+           ========================================== */
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-text {
+            font-size: 1.25rem;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-lg);
+            line-height: 1.8;
+        }
+
+        .contact-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 1.5rem;
+            background: var(--color-bg-secondary);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--color-text-secondary);
+            transition: var(--transition-smooth);
+        }
+
+        .contact-link:hover {
+            border-color: var(--color-accent-primary);
+            color: var(--color-text-primary);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px var(--color-shadow);
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+        }
+
+        /* ==========================================
+           FOOTER
+           ========================================== */
+
+        .footer {
+            background: var(--color-bg-secondary);
+            border-top: 1px solid var(--color-border);
+            padding: var(--space-lg) 0;
+            text-align: center;
+        }
+
+        .footer-text {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            margin-bottom: var(--space-xs);
+        }
+
+        .footer-subtext {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        /* ==========================================
+           RESPONSIVE DESIGN
+           ========================================== */
+
+        @media (max-width: 1024px) {
+            .hero-title {
+                font-size: 4.5rem;
+            }
+
+            .project-gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1.5rem;
+            }
+
+            .hero-title {
+                font-size: 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .hero-meta {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .timeline {
+                padding-left: 2rem;
+            }
+
+            .timeline-marker {
+                left: -2.5rem;
+            }
+
+            .timeline-header {
+                flex-direction: column;
+            }
+
+            .project-gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">JB</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-label">Software Engineer · U.S. Army Veteran · Software / Web Developer</div>
+            <h1 class="hero-title">
+                John Bryson
+            </h1>
+            <p class="hero-subtitle">
+                Building secure, mission-critical applications for the Department of Defense and innovative applications for everyday users
+            </p>
+            <div class="hero-meta">
+                <span class="clearance-badge">🔒 Active Secret Clearance</span>
+                <span class="location">📍 Rockland, MA</span>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="https://github.com/Jbryson88" target="_blank" class="btn btn-secondary">View GitHub</a>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Results-driven Software Engineer and U.S. Army Veteran with 4+ years of experience building secure, 
+                    mission-critical applications for the Department of Defense. Holds an Active Secret Clearance (renewed Oct 2023) 
+                    with proven expertise in full-stack web development, iOS development, database optimization, and Agile delivery.
+                </p>
+                <p class="about-text">
+                    Passionate about creating intuitive user experiences through both enterprise applications and consumer-facing iOS apps. 
+                    Adept at translating complex requirements into reliable, high-performance software in compliance with DoD security standards.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SwiftUI</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Core Competencies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">iOS Development</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Secure Software Design</span>
+                        <span class="skill-tag">Team Leadership</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Web Developer</h3>
+                            <span class="timeline-period">2025 – Present</span>
+                        </div>
+                        <div class="timeline-company">DecisionPointCorp</div>
+                        <ul class="timeline-description">
+                            <li>Lead development and maintenance of web-based interfaces for U.S. Army PAMWeb technologies, supporting 100+ end users</li>
+                            <li>Transitioned ISSO and PAMWeb applications into new database profiles, ensuring secure and uninterrupted data access across mission-critical systems</li>
+                            <li>Implemented responsive UIs with cross-browser compatibility, reducing reported usability issues by ~30%</li>
+                            <li>Delivered user training sessions and technical documentation, improving system adoption and reducing onboarding time</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Software Engineer</h3>
+                            <span class="timeline-period">2023 – 2025</span>
+                        </div>
+                        <div class="timeline-company">VSolvit LLC · Active Secret Clearance</div>
+                        <ul class="timeline-description">
+                            <li>Developed cost-point analysis and radar station applications for the U.S. Navy, directly supporting operational decision-making</li>
+                            <li>Optimized SQL database queries, improving data retrieval performance and maintaining integrity across multiple interconnected systems</li>
+                            <li>Led 2-week Agile sprint cycles for a team of 5+ engineers, consistently delivering UI/UX improvements on schedule</li>
+                            <li>Ensured full compliance with DoDM 5200.01 high-ISO security standards across all deliverables</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Software Engineer</h3>
+                            <span class="timeline-period">2022</span>
+                        </div>
+                        <div class="timeline-company">Leidos</div>
+                        <ul class="timeline-description">
+                            <li>Contributed to frontend and backend development of the AFATDS artillery system used in active Army operations</li>
+                            <li>Resolved 20+ bugs and feature requests per sprint within tight deadlines, maintaining codebase quality across a large-scale system</li>
+                            <li>Linked artillery databases with secure authorization nodes, meeting stringent performance and scalability requirements</li>
+                            <li>Configured, tested, and deployed mission-critical software for Army field use</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured iOS Projects</h2>
+            <p class="projects-intro">
+                Combining enterprise security expertise with consumer app development to create powerful, user-friendly iOS applications.
+            </p>
+            
+            <!-- PrepAI -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">PrepAI</h3>
+                    <p class="project-subtitle">AI-Powered Interview Preparation Platform</p>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        A comprehensive iOS application designed to help job seekers prepare for technical and behavioral interviews. 
+                        Features AI-generated mock interviews, adaptive flashcard learning, timed quizzes, and progress tracking across 
+                        multiple career fields.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>🎤 Mock interview sessions with AI-powered feedback</li>
+                            <li>🧠 Spaced repetition flashcard system</li>
+                            <li>⚡ Timed quiz mode for pressure practice</li>
+                            <li>📊 Progress tracking and performance analytics</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Apple Intelligence</span>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="images/prepai/11-home-iphone.png" alt="PrepAI Home" class="gallery-img">
+                        <img src="images/prepai/13-study-iphone.png" alt="PrepAI Study" class="gallery-img">
+                        <img src="images/prepai/12-practice-iphone.png" alt="PrepAI Practice" class="gallery-img">
+                        <img src="images/prepai/10-focus-area-iphone.png" alt="PrepAI Focus" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- NeuroDecks -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">NeuroDecks</h3>
+                    <p class="project-subtitle">AI Flashcard Learning Platform</p>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        An intelligent flashcard application that leverages artificial intelligence to create and optimize study materials. 
+                        Users can generate flashcards automatically, track their progress, and benefit from spaced repetition algorithms 
+                        for maximum retention.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>✨ AI-powered flashcard generation</li>
+                            <li>📚 Unlimited deck creation and organization</li>
+                            <li>🧮 Spaced repetition learning algorithm</li>
+                            <li>📈 Study progress tracking and analytics</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Apple Intelligence</span>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="images/neurodecks/07-home-iphone.png" alt="NeuroDecks Home" class="gallery-img">
+                        <img src="images/neurodecks/02-deck-creation-ipad.png" alt="Deck Creation" class="gallery-img">
+                        <img src="images/neurodecks/09-card-creation-iphone.png" alt="Card Creation" class="gallery-img">
+                        <img src="images/neurodecks/01-home-ipad.png" alt="NeuroDecks iPad" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- WriteCoach -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">WriteCoach</h3>
+                    <p class="project-subtitle">Personal Writing Assistant</p>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        A sophisticated writing assistant that helps users communicate clearly and confidently. WriteCoach offers AI-powered 
+                        text rewriting with customizable tones, email tools including reply drafters and subject line generators, and 
+                        professional cover letter building capabilities.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>✍️ AI text rewriting with multiple tone options</li>
+                            <li>📧 Email reply drafter and subject line generator</li>
+                            <li>📄 Professional cover letter builder</li>
+                            <li>🎯 Customizable writing styles and lengths</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">NLP</span>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="images/writecoach/08-rewrite-iphone.png" alt="WriteCoach Rewrite" class="gallery-img">
+                        <img src="images/writecoach/02-rewrite-ipad.png" alt="WriteCoach iPad" class="gallery-img">
+                        <img src="images/writecoach/09-tools-iphone.png" alt="WriteCoach Tools" class="gallery-img">
+                        <img src="images/writecoach/03-tools-ipad.png" alt="Tools iPad" class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3 class="education-degree">B.S. Computer Science</h3>
+                    <div class="education-school">Southern New Hampshire University</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently open to new opportunities in software engineering, particularly roles involving 
+                    secure application development, iOS development, and DoD contracting.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:John.bryson710@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        John.bryson710@gmail.com
+                    </a>
+                    <a href="tel:7193742074" class="contact-link">
+                        <span class="contact-icon">📞</span>
+                        (719) 374-2074
+                    </a>
+                    <a href="https://www.linkedin.com/in/john-bryson-b7891b1b5/" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/Jbryson88" target="_blank" class="contact-link">
+                        <span class="contact-icon">💻</span>
+                        GitHub Portfolio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 John Bryson. All rights reserved.</p>
+            <p class="footer-subtext">Software Engineer · iOS Developer · U.S. Army Veteran</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for fade-in animations on scroll
+        const observerOptions = {
+            threshold: 0.05, // Lower threshold for better mobile support
+            rootMargin: '0px 0px -10px 0px' // Less aggressive margin for mobile
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for scroll animations (except hero)
+        document.querySelectorAll('section').forEach((section, index) => {
+            // Don't hide the hero section with the observer
+            if (!section.classList.contains('hero')) {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            }
+        });
+
+        // Fallback: Make all sections visible after 3 seconds if observer doesn't trigger
+        // This ensures content is always visible on problematic mobile browsers
+        setTimeout(() => {
+            document.querySelectorAll('section').forEach(section => {
+                if (section.style.opacity === '0') {
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }
+            });
+        }, 3000);
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section[id]');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Gallery image lightbox
+        const galleryImages = document.querySelectorAll('.gallery-img');
+
+        galleryImages.forEach(image => {
+            image.addEventListener('click', () => {
+                const modal = document.createElement('div');
+                modal.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0, 0, 0, 0.95);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 9999;
+                    cursor: pointer;
+                    padding: 2rem;
+                `;
+
+                const img = document.createElement('img');
+                img.src = image.src;
+                img.alt = image.alt;
+                img.style.cssText = `
+                    max-width: 90%;
+                    max-height: 90%;
+                    border-radius: 12px;
+                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+                `;
+
+                modal.appendChild(img);
+                document.body.appendChild(modal);
+
+                modal.addEventListener('click', () => {
+                    modal.remove();
+                });
+            });
+        });
+
+        // Console message for developers
+        console.log(`
+%c👋 Hey there, fellow developer!
+%cThanks for checking out the code.
+Feel free to reach out if you'd like to collaborate.
+- John Bryson
+`,
+        'color: #d4af37; font-size: 16px; font-weight: bold;',
+        'color: #b8b4ad; font-size: 14px;'
+        );
+    </script>
+</body>
+</html>
