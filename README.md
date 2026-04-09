@@ -227,7 +227,38 @@ WriteCoach empowers users to communicate professionally in any situation. From j
 **App Store:** [Launch pending]  
 **Technologies:** SwiftUI, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Google AdMob, StoreKit 2
 
-<img width="100%" height="450" src="https://raw.githubusercontent.com/Jbryson88/ePortfolio/refs/heads/main/enhancement/CS%20465%20-%20Full%20Stack%20Software%20Development/Screenshot%202025-08-02%20at%2016.18.37.png" alt="WriteCoach Screenshot"/>
+### Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/welcome-ipad.png" alt="WriteCoach Welcome Screen" style="max-width:100%; height:auto;">
+      <div><strong>Welcome Screen</strong><br>Clean onboarding experience</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/rewrite-ipad.png" alt="WriteCoach Rewrite Interface" style="max-width:100%; height:auto;">
+      <div><strong>Rewrite Interface</strong><br>Six tone options with length control</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/tools-ipad.png" alt="WriteCoach Tools" style="max-width:100%; height:auto;">
+      <div><strong>Professional Tools</strong><br>Cover letters, replies, subject lines</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/settings-ipad.png" alt="WriteCoach Settings" style="max-width:100%; height:auto;">
+      <div><strong>Settings & Subscription</strong><br>Multi-provider AI configuration</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/welcome-iphone.png" alt="WriteCoach iPhone Welcome" style="max-width:100%; height:auto;">
+      <div><strong>iPhone Interface</strong><br>Fully responsive design</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/writecoach/subscription-iphone.png" alt="WriteCoach Subscription" style="max-width:100%; height:auto;">
+      <div><strong>Subscription Options</strong><br>Monthly and annual plans</div>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -310,6 +341,39 @@ Neurodecks transforms studying from a time-consuming chore into an efficient, au
 
 **App Store:** [Launch pending]  
 **Technologies:** SwiftUI, SwiftData, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Google AdMob, StoreKit 2
+
+### Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/home-ipad.png" alt="Neurodecks Home" style="max-width:100%; height:auto;">
+      <div><strong>Home Dashboard</strong><br>Study streak and quick actions</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/deck-creation-ipad.png" alt="Deck Creation" style="max-width:100%; height:auto;">
+      <div><strong>Deck Creation</strong><br>Color-coded organization</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/card-creation-ipad.png" alt="Card Creation" style="max-width:100%; height:auto;">
+      <div><strong>Card Creation</strong><br>Manual or AI generation</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/settings-ipad.png" alt="Settings" style="max-width:100%; height:auto;">
+      <div><strong>AI Provider Settings</strong><br>Apple Intelligence, Claude, ChatGPT</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/subscription-ipad.png" alt="Premium Subscription" style="max-width:100%; height:auto;">
+      <div><strong>Premium Features</strong><br>Unlimited AI generation</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/neurodecks/home-iphone.png" alt="iPhone Home" style="max-width:100%; height:auto;">
+      <div><strong>iPhone Interface</strong><br>Universal app design</div>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -397,6 +461,53 @@ PrepAI democratizes access to high-quality interview coaching. Whether you're a 
 
 **App Store:** [Launch pending]  
 **Technologies:** SwiftUI, SwiftData, Apple Intelligence, Claude API, ChatGPT API, Speech Recognition, Speech Synthesis, Google AdMob, StoreKit 2
+
+### Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/prepai/welcome-ipad.png" alt="PrepAI Welcome" style="max-width:100%; height:auto;">
+      <div><strong>Welcome Screen</strong><br>AI-powered interview coaching</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/focus-area-ipad.png" alt="Focus Area Selection" style="max-width:100%; height:auto;">
+      <div><strong>Focus Area</strong><br>10+ career fields</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/home-ipad.png" alt="Home Dashboard" style="max-width:100%; height:auto;">
+      <div><strong>Home Dashboard</strong><br>Progress tracking</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/prepai/practice-ipad.png" alt="Interview Types" style="max-width:100%; height:auto;">
+      <div><strong>Interview Types</strong><br>Behavioral, Technical, Case Study</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/study-ipad.png" alt="Study Mode" style="max-width:100%; height:auto;">
+      <div><strong>Study Mode</strong><br>Flashcards with spaced repetition</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/settings-ipad.png" alt="Settings" style="max-width:100%; height:auto;">
+      <div><strong>Settings</strong><br>AI provider configuration</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./images/prepai/subscription-ipad.png" alt="Subscription" style="max-width:100%; height:auto;">
+      <div><strong>Premium Subscription</strong><br>Unlimited interviews</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/home-iphone.png" alt="iPhone Home" style="max-width:100%; height:auto;">
+      <div><strong>iPhone Interface</strong><br>Voice-based interviews</div>
+    </td>
+    <td align="center" width="33%">
+      <img src="./images/prepai/practice-iphone.png" alt="iPhone Practice" style="max-width:100%; height:auto;">
+      <div><strong>Interview Practice</strong><br>Responsive mobile design</div>
+    </td>
+  </tr>
+</table>
 
 </div>
 
